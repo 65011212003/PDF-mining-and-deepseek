@@ -1,0 +1,724 @@
+Engineering of rice varieties with enhanced resistances to
+both blast and bacterial blight diseases via CRISPR/Cas9
+Yanbiao Zhou1,2,*,†, Shichong Xu1,3,†, Nan Jiang1, Xinhui Zhao1,4, Zhenan Bai1, Jinling Liu4, Wei Yao4,
+Qianying Tang1, Gui Xiao5, Chao Lv1,3, Kai Wang1, Xiaochun Hu1, Junjie Tan6,*and Yuanzhu Yang1,3,4,5,6,*
+1Key Laboratory of Southern Rice Innovation & Improvement, Ministry of Agriculture and Rural Affairs/Hunan Engineering Laboratory of Disease and Pe st Resistant
+Rice Breeding, Yuan Longping High-Tech Agriculture Co., Ltd, Changsha 410001, Hunan, China
+2College of Life Sciences, South China Agricultural University, Guangzhou 510642, China
+3College of Plant Science and Technology, Huazhong Agricultural University, Wuhan 430070, Hubei, China
+4College of Agronomy, Hunan Agricultural University, Changsha 410128, Hunan, China
+5State Key Laboratory of Hybrid Rice, Hunan Hybrid Rice Research Center, Changsha 410125, Hunan, China
+6State Key Laboratory of Crop Genetics and Germplasm Enhancement, Innovation Center for Genome Editing and Engineering, Jiangsu Collaborative Inno vation
+Center for Modern Crop Production, Nanjing Agricultural University, Nanjing 210095, China
+Received 1 December 2020;
+revised 25 November 2021;
+accepted 4 December 2021.
+*Correspondence
+(Tel+8613607442126; fax
++86073187059179; e-mail:
+yzhuyah@163.com (YY); Tel
++8615274918432; fax +86073187059179;
+zhouyanbiao2005@163.com (YZ); Tel
++8616651618276; fax +86073187059179;
+tanjunjie@njau.edu.cn (JT))
+†These authors contributed equally to this
+work.
+Keywords: rice, TGMS, CRISPR/Cas9,
+rice blast, bacterial blight.Summary
+Rice blast and bacterial blight represent two of major diseases having devastating impact on the
+yield of rice in most rice-growing countries. Developments of resistant cultivars are the most
+economic and effective strategy to control these diseases. Here, we used CRISPR/Cas9-mediated
+gene editing to rapidly install mutations in three known broad-spectrum blast-resistant genes,
+Bsr-d1 ,Pi21 andERF922 ,i na n indica thermosensitive genic male sterile (TGMS) rice line
+Longke638S (LK638S). We obtained transgene-free homozygous single or triple mutants in T 1
+generations. While all single and triple mutants showed increased resistance to rice blast
+compared with wild type, the erf922 mutants displayed the strongest blast resistance similar with
+triple mutants. Surprisingly, we found that Pi21 orERF922 single mutants conferred enhanced
+resistance to most of tested bacterial blight. Both resistances in mutants were attribute to the up-
+regulation of SA- and JA-pathway associated genes. Moreover, phenotypic analysis of these
+single mutants in paddy ﬁelds revealed that there were no trade-offs between resistances and
+main agricultural traits. Together, our study provides a rapid and effective way to generate rice
+varieties with resistance to both rice blast and bacterial blight.
+Introduction
+Rice ( Oryza sativa L.) is one of the most important staple foods
+feeding more than 50% population worldwide. However, its
+production and quality are severely threatened by a variety of
+pathogens. Among them, Magnaporthe oryzae (M.oryzae ) and
+Xanthomonas oryzae pv. oryzae (Xoo) are two well-known
+destructive pathogens causing rice blast and bacterial blight,
+respectively (Yin et al., 2018). The most economic and effective
+approach to control these diseases is to create the rice cultivars
+with broad-spectrum resistance against both of them (Deng et al.,
+2017).
+Hybrid rice with high yield plays a vital role in guarantee for
+staple food supply worldwide (Cheng et al ., 2007). Compared
+with conventional three-line hybrid rice, the two-line hybrid rice
+has attracted increasing attention as it is independent of restorer
+genes and more efﬁcient in production of hybrid seeds (Yuan,
+1994). Thermo-sensitive genic male sterility (TGMS) and
+photoperiod-sensitive genic male sterility (PGMS) lines are the
+central component for the two-line hybrid approach. LK638S is
+anindica (Xian) TGMS line developed in the 2000s with low
+critical sterility-inducing temperature ( <23.5/C176C), high outcrossing
+rate, good combining ability, but susceptible to rice blast and
+bacterial blight. Thus, establishing its variants with multiple
+diseases resistance is of great importance.
+Plants have evolved a two-layered innate immune system to
+defend against pathogens (Zhao et al ., 2018). The ﬁrst layer isactivated upon perception of pathogen-associated molecular
+patterns (PAMPs) by cell surface pattern recognition receptors
+(PRRs), leading to PAMP-triggered immunity (PTI). The ﬁrst layer
+could be overcome by pathogens through secreting PTI-inhibited
+effectors into plant cells, which activate effector-triggered
+susceptibility (ETS). To respond this virulence strategy, the second
+layer was activated by expressing plant resistance ( R) genes,
+which speciﬁcally recognize pathogen effectors to activate
+effector-triggered immunity (ETI) (Dangl et al ., 2013). These
+innate immune responses trigger many molecular events, includ-
+ing induction of a large number of defense-responsive genes
+(Eulgem and Somssich 2007), production of defense signal
+molecules, reactive oxygen species (ROS) (Kaku et al ., 2006)
+and phytohormones (De Vleesschauwer et al., 2013). Salicylic acid
+(SA) and jasmonic acid (JA) represent two most important
+phytohormones in regulation of plant immune responses (Liu
+et al., 2016). Resistance to biotrophic pathogens is predominantly
+involved in SA-dependent pathway, whereas resistance to
+necrotrophic pathogens and insects is usually associated with
+JA- and ET-driven defenses (De Vleesschauwer et al., 2013), e.g.,
+overexpression of OsWRKY13 , a WRKY-type transcription factor,
+enhanced rice resistance to rice blast and bacterial blight, which
+was associated with the activation of SA synthesis- and responsive
+genes (Qiu et al., 2007); knock-outs of MPK15 enhanced disease
+resistance in rice against blast and bacterial blight accompanied
+by up-regulation of SA- and JA-pathway-associated genes (Hong
+et al., 2019).
+876 ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd.
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial License, which permits use,
+distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.Plant Biotechnology Journal (2022) 20, pp. 876–885 doi: 10.1111/pbi.13766
+Recently, more than 100 major rice blast Rgenes have been
+identiﬁed and 37 of them have been cloned and characterized(Yin et al., 2021). Except for Pid2,pi21 and Ptr, most known R
+genes encode typical nucleotide-binding domain leucine-rich
+repeat containing (NLR) domain, which directly or indirectly
+interact with fungal effectors to trigger ETI (Dangl et al., 2013;
+Yinet al., 2021). The comprehensive understanding of immunity
+mechanisms of Rgenes can enhance the rice breeding with
+durable resistance. So far, an atypical Rgene Pi21 and two
+defense-related genes Bsr-d1 as well as ERF922 have attracted
+much more attention due to their broad-spectrum resistance. Bsr-
+d1encodes a C
+2H2-type transcription factor that directly binds to
+the promoter of three peroxidase genes ( Os01g73170 ,
+Os05g04470 and Os10g39170 ), thereby affecting H 2O2accu-
+mulation and broad-spectrum resistance to M.oryzae (Liet al.,
+2017; Tao et al., 2021; Zhu et al., 2020). In addition, Bsr-d1 was
+shown to be transcriptionally regulated by MYSB1 through
+directly binding to its promoter and a single base change
+(SNP33-G) in the Bsr-d1 promoter leads to enhanced afﬁnity
+with MYSB1, which suppresses Bsr-d1 gene expression. Pi21
+encodes a proline-rich protein containing a putative heavy metal-
+binding domain and protein –protein interaction motifs (Fukuoka
+et al., 2009). Deletions of the proline-rich motifs cause a loss of
+function. Knockout of Pi21 confers non-race speciﬁc and durable
+blast resistance (Tao et al., 2021). ERF922 encodes an APETELA2/
+ethylene response factor (AP2/ERF) type transcription factor and is
+strongly induced by M.oryzae (Liuet al., 2012). Knockdown or
+knockout of ERF922 resulted in enhanced resistance against rice
+blast, indicating the negative regulation role of this gene indisease resistance. To date, all the studies regarding Bsr-d1 ,Pi21
+and ERF922 only separately explored their roles in resistance
+against rice blast and were mainly carried out in the japonica rice
+background. The rice blast resistance comparison of these three
+genes under the same rice variety as well as their roles in
+resistance to bacterial blight remains unknown.
+CRISPR/Cas9 genome editing technology enables targeted
+mutagenesis of DNA (Baltes and Voytas,2015). Due to its
+simplicity, feasibility and versatility, it has been increasinglyemployed in a variety of organisms including crops that wereedited for trait improvements. Moreover, because of its ability for
+multiplexable genome targeting, it could be used to improve
+multiple traits simultaneously (Oliva et al ., 2019; Tang et al .,
+2017; Wang et al ., 2016; Xu et al ., 2019; Zhang et al ., 2018;
+Zhou et al., 2016).
+In this study, we have set an example of CRISPR/Cas9
+applications in enhancing multiple disease resistance in a com-
+mercial indica TGMS line LK638S. We chose three broad-
+spectrum blast-resistant genes ( Bsr-d1 ,Pi21 and ERF922 ) and
+created their single as well as triple mutants. We found that
+ERF922 mutants showed the strongest blast resistance level
+similar with triple mutants. Furthermore, we also explored theirnew roles in resistance to bacterial blight. Our study indicatesCRISPR/Cas9 as a powerful tool in modern molecular breeding by
+targeted genes modiﬁcations that could signiﬁcantly accelerate
+the breeding of rice varieties with multiple disease resistance.
+Results
+Targeted mutagenesis of Bsr-d1 ,Pi21 and ERF922 genes
+To generate Bsr-d1 ,Pi21 and ERF922 single mutants, three
+sgRNAs were designed (Figure 1a-c). An expression vector thatcontained the Cas9 cassette driven by the ubiquitin promoter andsingle guide RNA (sgRNA) scaffold under the rice small nuclear
+RNA promoters was constructed based on previously describedCRISPR/Cas9 vector (Yin et al., 2018). We took advantage of this
+vector to target one or multiple sites via a single construct, to
+create bsr-d1 -o r pi21-o r erf922 -targeted single gene mutants
+and triple bsr-d1/pi21/erf922 mutants (Figure 1d, e). These
+recombinant expression vectors were used to transform the
+TGMS variety Longke638S (LK638S) via Agrobacterium -mediated
+transformation. Based on hygromycin-resistant selection, weobtained 34 resistant lines for bsr-d1 , 22 for pi21, 45 for
+erf922 as well as 35 for triple bsr-d1/pi21/erf922 . The PCR-based
+sanger sequencing was performed to produce about 82% (28/34), 68% (15/22), 73% (33/45) and 71% (25/35) targeting
+efﬁciency for Bsr-d1 ,Pi21,ERF922 and triple Bsr-d1/Pi21/ERF922
+genes, respectively (Table 1). Seven, ﬁve, eight homozygoussingle mutants for Bsr-d1 ,Pi21,ERF922 , respectively, as well as
+three homozygous triple mutants were identiﬁed in the T
+0
+generations (Figure S1), but unfortunately no double-mutantplants were detected. In the T
+1generation, for each gene, we
+obtained two transgene-free mutants harbouring frameshift
+mutations (Figure 1f, g and Figure S2), and the reverse transcrip-
+tion quantitative PCR (RT-qPCR) showed that the expression ofBsr-d1 ,Pi21,ERF922 were reduced in single or triple mutants
+(Figure S3), which could be explained by cellular nonsense-
+mediated mRNA decay (NMD) mechanism as described previously(Lykke-Andersen and Jensen 2015). These results indicated that
+both protein and transcriptional abundance were affected in
+these single and triple mutants.
+Rice blast resistance was enhanced in mutants
+To investigate their ability against rice blast, bsr-d1, pi21 and
+erf922 mutants were evaluated for leaf blast resistance at
+seedling stages in the blast nursery of Dawei Mountain. The
+results showed that the LK638S leaves had much more lesionsthat were signiﬁcantly decreased in all single and triple mutant
+lines (Figure 2a, b and Figure S4). To conﬁrm these lesions were
+caused by M.oryzae , the amount of M.oryzae present in each
+inoculated leaf was measured by quantifying fungal-speciﬁc DNA.DNA-based quantitative PCR (q-PCR) showed that the mutant
+lines harboured less fungus than that in LK638S (Figure 2c).
+Importantly, we observed that the erf922 mutants exhibited the
+strongest resistance than the other two single mutants but no
+signiﬁcant difference with triple mutants. To determine if ERF922
+was transcriptionally regulated by Bsr-d1 andPi21, we carried out
+RT-qPCR to analyse the transcriptional abundance of ERF922 in
+LK638S, bsr-d1 as well as pi21 (Figure S5). As the result showed,
+the expression levels of ERF922 exhibited no signiﬁcant difference
+between LK638S and each mutant, consistent with the previous
+report (Li et al ., 2017). To test if enhanced blast resistance still
+existed at reproductive stage, the blast evaluation on rice panicleswas conducted, and the results showed that percentage ofdiseased panicles in mutants were signiﬁcantly lower than that in
+LK638S (Figure S6). These results demonstrated that the loss
+function of Bsr-d1, Pi21 orERF922 improved the blast resistance
+at both seedling and reproductive stages. To further evaluate the
+rice blast resistance of the mutants in greenhouse, two blast
+isolates collected from different regions of China were used (110-2 and E2007046A2 from Hunan and Hubei, respectively). All
+mutant lines exhibited increased resistance to rice blast, as
+reﬂected by the signiﬁcantly decreased lesion length and fungalbiomass in the mutant lines compared with the LK638S at
+ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 20, 876–885Engineering of disease-resistant TGMS rice 877
+ 14677652, 2022, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/pbi.13766 by SEA ORCHID (Thailand), Wiley Online Library on [01/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+10 days’ post-inoculation (dpi) (Figure 3a, b). Notably, the lesion
+length and fungal biomass of erf922-1 and bsr-d1pi21erf922-1
+were signiﬁcantly lower than those of the bsr-d1-9 and pi21-1
+(Figure 3a, b). All together, these results suggested that knockoutofBsr-d1, Pi21 orERF922 enhanced rice blast resistance in the
+background of LK638S, and among them, erf922 conferred the
+strongest resistance.
+The expression analysis of defense-related
+genes in mutants
+Rice Bsr-d1 suppresses the expression of peroxidase genes
+through binding of the repressive MYB transcription factor
+(MYBS1) to the bsr-d1 promoter, resulting in broad-spectrum
+resistance to rice blast (Li et al ., 2017; Zhu et al ., 2020). Thus,
+three Bsr-d1 target peroxidase genes ( LOC_Os01g73170 ,
+LOC_Os05g04470 and LOC_Os10g39170 ) were used fordetermining the expression level by RT-qPCR. The results showed
+that these peroxidase genes in the bsr-d1 mutant lines were
+reduced by 2- to 12-fold in comparison with wild-type LK638S,
+consistent with the previous study (Li et al., 2017) (Figure S7a-c).
+The content of H 2O2in the bsr-d1 mutant lines was signiﬁcantly
+higher than that in LK638S (Figure S7d). These results indicated
+that loss function of Bsr-d1 reduced the expression of the
+peroxidase genes and increased the amount of H 2O2, thereby
+leading to the resistance to a broad spectrum of rice blast.
+Activation of plant immune responses during pathogen attack
+is accompanied by defense hormone pathways, including the SAsignalling pathway marker gene OsPR1a (Agrawal et al., 2000),
+OsPR1b (Agrawal et al., 2001), OsWRKY45 (Tao et al., 2009), and
+jasmonate acid (JA) signalling pathway marker gene OsPR4
+(Wang et al., 2011). Therefore, the expressions of these defense-
+related genes were analysed in the mutant lines and LK638S at
+0 h and 24 h after the leaves were inoculated with rice blast. The
+expression levels of these defense-related genes were markedlyhigher in mutant lines than those in LK638S at 24 h post-
+inoculation (hpi) (Figure 4). These results indicated that knockouts
+ofBsr-d1 orPi21 orERF922 activated the SA and JA signalling
+pathway genes by rice blast fungi, which may have contributed totheir improvement of rice blast resistance.
+Knockout of Pi21 orERF922 conferred robust
+resistance to bacterial blight
+SA and JA are the most important plant hormones that play major
+roles in regulation of plant defense responses against Xoo (Bari
+Figure 1 CRISPR/Cas9-induced mutations in the Bsr-d1 ,Pi21 andERF922 genes. (a-c) Schematic of the Bsr-d1 (a),Pi21 (b) and ERF922 (c) gene structures
+and target sites. Exons and introns are indicated with black rectangles and black lines, respectively. The spacer and PAM sequences were marked in red and
+blue. (d, e) Schematic diagram of the T-DNA structures including the Cas9 and single sgRNA (d) or three sgRNAs (e) in genome editing construct. The
+expression of Cas9 is driven by the maize ubiquitin promoter ( OsUBQ ); the expression of the sgRNA scaffold is driven by the rice OsU3 orOsU6a orOsU6b
+small nuclear RNA promoter; the expression of hygromycin ( HPT) is driven by CaMV35S promoter. NLS, nuclear localization signal; Tnos, the terminator; LB
+and RB, left border and right border, respectively. (f, g) Homozygous mutations identiﬁed at the target sites of bsr-d1 ,pi21,erf92 2 mutant lines (f) and
+triple bsr-d1 /pi21/erf92 2 mutant lines (g) in the T 1generation. Amino acids were marked above the relative nucleotide triplets, and the ﬁrst altered ones
+from the frameshift were indicated in red, with the number representing the order in the proteins. The stars represent premature stop codons
+Table 1 Targeting mutagenesis efﬁciency in T 0transgenic plants
+GeneT0
+plantsMutant
+plantsHomozygous
+mutation plantsTargeting
+efﬁciency (%)
+Bsr-d1 34 28 7 82
+Pi21 22 15 5 68
+ERF922 45 33 8 73
+Bsr-d1/Pi21/
+ERF92235 25 3 71
+ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 20, 876–885Yanbiao Zhou et al. 878
+ 14677652, 2022, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/pbi.13766 by SEA ORCHID (Thailand), Wiley Online Library on [01/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+and Jones 2009; De Vleesschauwer et al., 2013; Hou et al., 2019;
+Qiuet al., 2007). To investigate the bacterial blight resistance of
+the mutant lines, we inoculated 6 Xoo strains (Table S2) to
+mutant lines using the tip-cutting method (Ji et al., 2016). When
+the mutant lines were inoculated with FuJ, PXO61 and PXO71,respectively, the pi21-1 anderf922-1 showed signiﬁcantly shorter
+lesions length than LK638S (Figure 5a, b). The lengths of the
+lesions on erf922-1 andpi21-1 caused by the PXO86 and PXO99
+were signiﬁcantly shorter than those observed in LK638S,
+respectively. Additionally, upon artiﬁcial inoculation of YN24,
+there were no signiﬁcant difference of lesions length weredetected between mutant lines and LK638S. These resultsdemonstrated that knockout of Pi21 orERF922 in LK638S
+background can improve resistance against bacterial blight
+disease. To further elucidate the regulation network, thetranscriptional levels of SA and JA signalling pathway genes were
+examined by RT-qPCR. The results showed that all the tested
+genes were signiﬁcantly up-regulated in pi21-1 and erf922-1
+when the mutant plants inoculated with Xoo, whereas these
+genes remained unchanged in bsr-d1-9 , except for OsWRKY45 ,
+which was induced in bsr-d1-9 (Figure S8). These results suggest
+that the knockout of Pi21 orERF922 in LK638S-enhanced
+resistance to bacterial blight disease, which may result from the
+activation of the SA and JA signalling pathway genes.
+Characterizations of main agronomic traits in
+mutants
+The above results showed that bsr-d1-9 ,pi21-1 ,erf922-1 and
+bsr-d1pi21erf922-1 mutants were more resistant to rice blast
+(Figure 2, 3), and the pi21-1 and erf922-1 mutants showed
+increased resistance to bacterial blight (Figure 5). We further
+investigated whether increased resistances against rice blast and
+bacterial blight could affect rice growth. At the mature stage,main agronomic traits including plant height, tillers per plant,panicle length and grain number per panicle were measured.
+Compared with that in wild-type LK638S, the plant height and
+tiller number in triple mutant bsr-d1pi21erf922-1 were signiﬁ-
+cantly lower, while there were not signiﬁcantly different in thesingle mutant bsr-d1-9 ,pi21-1 orerf922-1 (Figure 6). In addition,
+there were no signiﬁcant difference for the panicle length andgrain number between all mutant lines and LK638S. These results
+suggested that knockouts of Pi21 orERF922 exhibited increased
+resistance against both rice blast and bacterial blight withoutcompromising major agricultural traits.
+Discussion
+Currently, the objective for rice breeding is diversiﬁed, andbreeders consider not only high yields but also rice quality anddisease resistance. Rice blast and bacterial blight are primarydestructive diseases that badly affect not only rice production but
+also rice quality. In the current study, we took advantage of
+CRISPR/Cas9 technology to edit three known broad-spectrumblast resistant genes Bsr-d1 ,Pi21 as well as ERF922 in a very high
+efﬁciency to generate each single and triple mutant in T
+0
+generations (Table 1). We further carried out inoculation exper-
+iments and proved that all the single and triple mutants conferred
+enhanced resistance to rice blast (Figure 2 and 3). It is worth
+noting that the erf922 mutants exhibited the strongest blast
+resistance among all single mutants similar with bsd-
+d1pi21erf922 triple mutants indicating that ERF922 is preferred
+to being employed to increase the blast resistance under the
+background of LK638S. In addition, similar blast resistances inerf922 andbsd-d1pi21erf922 triple mutants suggested possibility
+that ERF922 may act downstream of Bsd-d1 and Pi21. ERF922
+may integrate Bsd-d1- and Pi21-mediated resistant signalling torespond pathogen attack. Expression levels of ERF922 exhibited
+no signiﬁcant difference between WT and each single mutant
+(Figure S5), suggesting the possibility that ERF922 was post-
+transcriptionally regulated. The detailed post-transcriptional
+mechanism will be the subject of future work. Previously, all
+the studies regarding Bsr-d1 ,Pi21 andERF922 only explored their
+roles in resistance against rice blast. It was unknown whetherthese three genes played roles in resistance to bacterial blight. In
+the present study, by testing six typical Xoo strains, we showed
+that pi21-1 and erf922-1 mutants exhibited resistances to four
+out of six Xoo strains with one Chinese isolates (FuJ) and three
+Figure 2 Enhanced blast resistance of the mutant lines in the blast nursery. (a) Rice mutant lines and wild-type LK638S were tested for resistance to M.
+oryzae at the seedling stage. Scale bar, 1 cm. (b) The percentage of lesion areas (disease index) were measured via image analysis using ImageJ software
+(n=6 leaves). (c) Fungal growth was determined by the expression level of the Magnaporthe oryzae MoPot2 gene in the inoculated leaves by RT-qPCR,
+and the levels were normalized to the expression level of the OsUbi gene ( n=3). Values and error bars represent the mean and standard deviation of three
+independent biological replicates. **indicates a signiﬁcant difference ( P<0.01 from Student’s t-test)
+ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 20, 876–885Engineering of disease-resistant TGMS rice 879
+ 14677652, 2022, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/pbi.13766 by SEA ORCHID (Thailand), Wiley Online Library on [01/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Philippine strains (PXO61, PXO71, PXO99 or PXO86) (Figure 5).
+More Xoo strains will be tested in these mutants to investigate
+their broad-spectrum resistance to the bacterial blight. A recentstudy showed that CRISPR/Cas9-mediated multiplex editing of
+thePi21,Bsr-d1 as well as a well-known Xoo-resistant gene Xa5
+generated pi21-bsr-d1-xa5 triple mutant which conferred resis-
+tant to both blast and bacterial blight (Tao et al., 2021). In our
+study, on one hand, we further compared the blast resistance
+level among Bsr-d1 ,Pi21 and ERF922 single mutants and
+identiﬁed the erf922 mutant with the strongest blast resistance.
+On the other hand, our study described the new roles of Pi21 as
+well as ERF922 in the resistance to Xoo, which could well explain
+why the pi21-bsr-d1-xa5 triple mutant exhibited much stronger
+resistance to Xoo than xa5single mutant in the previous study
+(Tao et al., 2021).
+It has been reported that many plant pathogenic Xanthomonas
+spp. secreted a class of proteins designated transcription activator-
+like (TAL) effectors that were injected into plant cells via the type III
+secretion system (TTSS) to activate the expression of host suscep-tibility genes that result in diseases (Hu et al ., 2014; Xu et al .,2019). TALEs activate the expression of host gene through binding
+into speciﬁc promoters of host target genes (Wang et al., 2015).
+For example, the Os8N3 was activated by the TAL effector PthXo1
+from Xoo strain PXO99 by recognition of TAL effector binding
+elements (EBEs) located at the promoter region of Os8N3 (Romer
+et al., 2010). Likewise, based on the enhanced resistances to Xoo
+strains in pi21 and erf922 mutants, we speculated that TALEs
+secreted by these Xoo strains might target the promoter region of
+Pi21 and ERF922 to activate Pi21 and ERF922 expressions and
+hence causing diseases, whereas the loss function of Pi21 or
+ERF922 was conducive to the bacterial blight resistances.
+Plants response to pathogen attack by a combination of
+constitutive and inducible defense responses. Many of theseresponses are modulated through complex interconnecting signal
+transduction pathways, within which hormones fulﬁll central
+roles (De Vleesschauwer et al., 2013). Plant immunity is usually
+associated with SA and JA hormone signalling pathways (Bari and
+Jones 2009). For example, knockdown of OsBON1 conferred
+enhanced resistance to rice fungal and bacterial pathogens,which was accompanied by the activation of SA- and JA-
+Figure 3 Blast resistance evaluation by
+punch inoculation. (a, b) The mutant lines
+were inoculated with the M.oryzae isolate
+110-2 (a) and E2007046A2 (b),
+respectively. Two leaves for each of mutant
+lines and LK638S are shown. Lesion length
+and fungal growth were determined on
+inoculated leaves at 10 dpi. Scale bar,
+1 cm. Values and error bars represent the
+mean and standard deviation of three
+independent biological replicates. **
+indicates a signiﬁcant difference ( P<0.01
+from Student’s t-test)
+ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 20, 876–885Yanbiao Zhou et al. 880
+ 14677652, 2022, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/pbi.13766 by SEA ORCHID (Thailand), Wiley Online Library on [01/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+responsive genes (Yin et al ., 2018). Expressions of SA and JA
+pathway-associated genes were signiﬁcantly upregulated in thempk15 mutant, resulting in enhanced disease resistance to rice
+blast and bacterial blight (Hong et al., 2019). The SA signalling
+marker gene OsWRKY45 from indica rice varieties positively
+regulates rice resistance to rice blast and bacterial blight (Tao
+et al., 2009). The expression of OsWRKY45 was induced not only
+byM.grisea but also Xoo (Ryu et al ., 2006; Tao et al ., 2009).
+OsWRKY45- overexpressing plants showed enhanced resistance
+to rice blast and bacterial blight. In this study, upon plants were
+infected with the rice blast, higher levels of SA signalling related
+genes OsPR1a ,OsPR1b ,OsWRKY45 and JA signalling pathway
+gene OsPR4 were detected in mutants than that in wild-type
+plants (Figure 4). In addition, when the mutant plants were
+inoculated with bacterial blight, the OsPR1a ,OsPR1b ,OsWRKY45
+and OsPR4 were signiﬁcantly up-regulated in pi21-1 anderf922-1
+(Figure S8). These results indicated that the enhancement of
+resistance to rice blast and bacterial blight may be associated withthe activation of SA and JA signalling genes in mutants. However,
+detailed molecular mechanisms of Pi21- and ERF922 -mediated
+immunity to bacterial blight still require further study. Of note,the inconsistence of gene expression in Figure 4 and Figure S8 at0 h (e.g. expression of OsWRKY45 is slightly higher in each
+mutant than LK638S in Figure 4 but similar in Figure S8) could be
+explained by the fact that the samples used for mRNA detectionin the two experiments were different in terms of developmental
+stage, growth environment as well as the sampling area.
+Together, our work provides a convenient, rapid and effectiveway to obtain rice cultivars against the blast as well as bacterialblight by CRISPR/Cas9, which could signiﬁcantly accelerate the
+breeding of rice varieties with multiple disease resistance.
+Experimental procedures
+Construct and rice transformation
+The target sites of Bsr-d1 ,Pi21 andERF922 were selected by the
+CRISPR-Plant Web server (Xie et al., 2014) and were constructed
+into the CRISPR/Cas9 vector as described previously (Ma et al .,
+2015). Brieﬂy, the designed targeting sequence was synthesized
+and annealed to form the oligo adaptors. The oligo adaptors were
+inserted into the sgRNA expression cassette vectors at a Eco31 I
+site. The integrated sgRNA expression cassette was then ampliﬁed
+by PCR using universal primers, and the amplicons were cloned
+into the CRISPR/Cas9 plant expression vector. The CRISPR/Cas9plasmids were introduced into Agrobacterium tumefaciens
+EHA105. Rice transformation of LK638S was performed as
+described previously (Zhou et al ., 2018). Speciﬁc primer pairs
+Cas9-F/Cas9-R and HPT-F/HPT-R were used to conﬁrm T
+0
+transgenic-positive plants. Bsr-d1-CX-F/Bsr-d1-CX-R, Pi21-CX-F/Pi21-CX-R and ERF922-CX-F/ERF922-CX-R were used to amplifythe genome regions containing each target site, and the resultingPCR products were followed by sequencing to detect mutations
+in T
+0and T 1generations. Sequencing results were decoded by an
+online tool DSDecodeM (http://skl.scau.edu.cn/ dsdecode/) (Liuet al ., 2015b). Transgene-free plants were identiﬁed using the
+primer pairs Cas9-F/Cas9-R and HPT-F/HPT-R and determined by
+both showing negative ampliﬁcation. Sequences of the primersare listed in Table S1.
+Figure 4 Transcriptional abundances of
+SA- and JA-regulated defense-related
+genes in mutant lines. (a-d) Expression
+levels of the genes involved in SA (a-c) and
+JA (d) signal transduction in bsr-d1-9 ,
+pi21-1 ,erf922-1 ,bsr-d1pi21erf922-1 and
+wild-type LK638S were determined by RT-
+qPCR. Values and error bars represent the
+mean and standard deviation of three
+independent biological replicates. **
+indicates a signiﬁcant difference ( P<0.01
+from Student’s t-test)
+ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 20, 876–885Engineering of disease-resistant TGMS rice 881
+ 14677652, 2022, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/pbi.13766 by SEA ORCHID (Thailand), Wiley Online Library on [01/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Rice blast Inoculation
+The rice blast nursery investigation was performed during April to
+May in two consecutive years (2019-2020) in Dawei Mountain
+(Hunan Province, 28 °490N, 113 °990E). Fifty seeds of LK638S andmutant rice plants were sown in single-row plots, and three
+extremely susceptible cultivars 9311, Xiangaizao7 and Xiang-
+wanxian11 were sown on the plot borders used as an inducer toensure uniform blast infection. The diseased straws were cut into
+small segments (2-3 cm) and sprinkled over the susceptible
+Figure 5 Phenotypical characterization of bsr-d1-9 ,pi21-1 ,erf922-1 and wild-type LK638S against Xoo. (a) Phenotypes of disease reactions in the LK638S
+and the mutant lines after inoculation with Xoo strain FuJ, PXO61, PXO71, PXO86, PXO99 and YN24. Scale bar, 2 cm. (b) Measurements of disease lesion
+lengths (cm) in wild-type and mutant lines at 2 weeks after inoculation. Values and error bars represent the mean and standard deviation of six
+independent biological replicates. **indicates a signiﬁcant difference ( P<0.01 from Student’s t-test)
+ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 20, 876–885Yanbiao Zhou et al. 882
+ 14677652, 2022, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/pbi.13766 by SEA ORCHID (Thailand), Wiley Online Library on [01/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+spreader cultivars at the two-leaf stage to induce natural
+infection. Twenty-ﬁve days later, ﬂag leaves were harvested to
+analyse lesion area and relative fungal biomass. The relativefungal biomass was calculated using the threshold cycle value (C
+t)
+ofM.oryza ePot2 gene against the C tof the rice genomic
+ubiquitin ( OsUbi ) gene (Li et al., 2017). Sequences of the primers
+are listed in Table S1.
+Punch inoculation was performed as previously described (Liu
+et al ., 2015a) with slight modiﬁcation. Detached leaf sheaths
+from the fourth leaf of ﬁve-leaf-stage seedlings were inoculatedwith two M.oryzae isolates collected from different regions of
+China, with 110-2 strain from Hunan and E2007046A2 from
+Hubei. M.oryzae isolates were grown on complete agar medium
+for 15 d before producing spores. Spores were collected via
+ﬂooding of the fungal agar cultures with sterile water, and the
+spore concentration in the suspension was adjusted to 5 910
+5
+conidia/mL before punch inoculation. Dip 5 lL spore suspension
+for each drop using pipette tip at two spots on each leaf.
+Inoculated detached leaves were placed in 0.1% 6-benzylaminopurine (6-BA) in sterile water to keep moist. Thelesion lengths of disease reactions were measured at 10 days’
+post-inoculation (dpi). Relative fungal biomass was calculated
+using the threshold cycle value (Ct) of M.oryzae Pot2 gene
+against the Ct of the rice genomic ubiquitin ( OsUbi ) gene (Li et al.,
+2017).
+Blast resistance at productive stage was also investigated in an
+experimental paddy ﬁeld in Dawei Mountain. Twenty-four plants
+were transplanted for each line in early June. After ﬂowering, the
+blast symptoms in rice neck were evaluated. The total number ofpanicles and the number of diseased panicles (with at least one
+black neck symptom) were counted for each plant. The panicle
+severity of a plot was deﬁned as the mean of percentage ofdiseased panicle from 20 plants (Sester et al., 2014). Percentageof diseased panicle =% (the number of diseased panicles/ total
+number of panicles).
+Bacteria strains and inoculation
+To examine resistance of bacterial blight, Xoo strains were grown
+in TSA medium (10 g/L tryptone, 10 g/L sucrose, 1 g/L glutamic
+acid, 15 g/L agar and PH 6.8-7.0). Bacteria were suspended in
+sterile water to an OD 600=1.0 for inoculation on rice leaves. Rice
+plants at the booting stage were inoculated with the leaf-clippingmethod as previously described (Xu et al ., 2019). Disease
+phenotype was scored by measuring the lesion length at 2 weeks
+after inoculation. The sources of the Xoo strains tested in this
+study are listed in Table S2.
+RNA Isolation and RT-qPCR
+Total RNA isolation and reverse transcription quantitative PCR(RT-qPCR) were carried out as described previously (Zhou et al.,
+2015). To analyse the inﬂuence of M.oryzae infection on gene
+expression, three-week-old rice plants growing in the chamber
+were sprayed with 110-2 spores. The inoculated plants were kept
+in the growth chamber for 24 h in the dark at 25 °C with 90%
+relative humidity. The inoculation leaves were harvested to
+analyse the gene expression. To examine the inﬂuence of
+bacterial blight infection on gene expression, ﬂag leaves from2-month-old rice plants in the paddy ﬁeld were used. About 3 cm
+leaf fragments next to Xoo strain FuJ infection sites were used for
+RNA isolation. The primers used for RT-qPCR are listed inTable S1. The expression of rice Actin gene (LOC_Os03g50885)
+was used as an internal control. The relative expression levels
+were measured as previously described (Livak and Schmittgen2001).
+Figure 6 Comparison of major agronomic
+traits between wild-type LK638S and bsr-
+d1-9 ,pi21-1 ,erf922-1 as well as bsr-
+d1pi21erf922-1 rice plants. (a) Phenotypes
+of LK638S and each mutant plant at the
+heading stage. Scale bar, 10 cm. (b-e) The
+major traits including plant height (b),
+tillering number per plant (c), panicle
+length (d) and grain number per plant (e)
+are displayed in histograms. Agronomic
+traits were investigated in paddy ﬁled
+located at Guanshan village (28 °19’32’’N,
+112°40’38’’E), Changsha, in 2020. Data
+are presented as mean /C6SD (n=20). **
+indicates a signiﬁcant difference ( P<0.01
+from Student’s t-test)
+ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 20, 876–885Engineering of disease-resistant TGMS rice 883
+ 14677652, 2022, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/pbi.13766 by SEA ORCHID (Thailand), Wiley Online Library on [01/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+H2O2accumulation
+The concentration of H 2O2was measured according to the
+method described previously (Zhou et al., 2018).
+Characterization of agronomic trait
+The wild-type LK638S and each mutant were planted with three
+replications in paddy ﬁelds located at Guanshan village(28°19’32’’N, 112 °40’38’’E), Changsha, in 2020. Each plot
+consisted of 7 rows with 8 plants per row at a planting density
+of 20 cm 920 cm, and the ﬁeld management was the same as
+that used in local paddy ﬁelds. Upon harvest, 20 plants in the
+middle of each plot were randomly selected for investigations of
+main agronomic traits, including plant height, tillers per plant,panicle length and grain number per panicle. Statistical analysesof these data were performed using Student’s t test.
+Acknowledgements
+This work was supported by the National Natural ScienceFoundation of China (31901516), the special funds for theconstruction of innovative provinces in Hunan (2020RC3085) and
+the Project of Hunan Natural Science Youth Foundation
+(2019JJ50414).
+Conﬂict of interest
+The authors declare no conﬂicts of interest.
+Author contributions
+Y. Z. and Y. Y. designed the studies; Y. Z., S. X., N. J., X. Z., Z. B.,
+J. L., W. Y., Q. T., G. X., C. L. and X. H. performed the
+experiments; Y. Z., S. X., N. J., K. W. and Y. Y. analysed the data.Y. Z. and J. T. wrote the manuscript. All authors read and
+approved the ﬁnal manuscript.
+References
+Agrawal, G.K., Jwa, N.S. and Rakwal, R.(2000) A novel rice ( Oryza sativa L.)
+acidic PR1 gene highly responsive to cut, phytohormones, and protein
+phosphatase inhibitors. Biochem. Biophys. Res Commun ,274, 157 –165.
+Agrawal, G.K., Rakwal, R. and Jwa, N.S.(2001) Differential induction of three
+pathogenesis-related genes, PR10 ,PR1b and PR5by the ethylene generator
+ethephon under light and dark in rice ( Oryza sativa L.) seedlings. J. Plant
+Physiol ,158(1), 133 –137. https://doi.org/10.1078/0176-1617-00186
+Baltes, N.J. and Voytas, D.F.(2015) Enabling plant synthetic biology through
+genome engineering. Trends Biotechnol ,33(2), 120 –131. https://doi.org/10.
+1016/j.tibtech.2014.11.008
+Bari, R. and Jones, J.D.(2009) Role of plant hormones in plant defence
+responses. Plant Mol. Biol ,69, 473 –488.
+Cheng, S.H., Zhuang, J.Y., Fan, Y.Y., Du, J.H. and Cao, L.Y.(2007) Progress in
+research and development on hybrid rice: a super-domesticate in China. Ann.
+Bot,100(5), 959 –966. https://doi.org/10.1093/aob/mcm121
+Dangl, J.L., Horvath, D.M. and Staskawicz, B.J.(2013) Pivoting the plant
+immune system from dissection to deployment. Science ,341(6147), 746 –
+751. https://doi.org/10.1126/science.1236011
+De Vleesschauwer, D., Gheysen, G. and Hofte, M.(2013) Hormone defense
+networking in rice: tales from a different world. Trends Plant Sci ,18(10),
+555–565. https://doi.org/10.1016/j.tplants.2013.07.002
+Deng, Y., Zhai, K., Xie, Z., Yang, D., Zhu, X., Liu, J., Wang, X. et al .(2017)
+Epigenetic regulation of antagonistic receptors confers rice blast resistancewith yield balance. Science ,355(6328), 962 –965. https://doi.org/10.1126/
+science.aai8898
+Eulgem, T. and Somssich, I.E.(2007) Networks of WRKY transcription factors in
+defense signaling. Curr. Opin. Plant Biol ,10, 366 –371.
+Fukuoka, S., Saka, N., Koga, H., Ono, K., Shimizu, T., Ebana, K., Hayashi, N.
+et al.(2009) Loss of function of a proline-containing protein confers durable
+disease resistance in rice. Science ,325(5943), 998 –1001. https://doi.org/10.
+1126/science.1175550
+Hong, Y., Liu, Q., Cao, Y., Zhang, Y., Chen, D., Lou, X., Cheng, S. and
+et al.(2019) The OsMPK15 negatively regulates Magnaporthe oryza andXoo
+disease resistance via SA and JA signaling pathway in rice. Front. Plant Sci ,10,
+752.
+Hou, Y., Wang, Y., Tang, L., Tong, X., Wang, L., Liu, L., Huang, S. and
+et al .(2019) SAPK10-Mediated Phosphorylation on WRKY72 Releases Its
+Suppression on Jasmonic Acid Biosynthesis and Bacterial Blight Resistance.iScience ,16, 499 –510. https://doi.org/10.1016/j.isci.2019.06.009
+Hu, Y., Zhang, J., Jia, H., Sosso, D., Li, T., Frommer, W.B., Yang, B. et al.(2014)
+Lateral organ boundaries 1 is a disease susceptibility gene for citrus bacterialcanker disease. Proc. Natl Acad. Sci. USA ,111(4), E521 –E529. https://doi.org/
+10.1073/pnas.1313271111
+Ji, Z., Ji, C., Liu, B., Zou, L., Chen, G. and Yang, B.(2016) Interfering TAL
+effectors of Xanthomonas oryzae neutralize R-gene-mediated plant disease
+resistance. Nat. Commun ,7,1–9.
+Kaku, H., Nishizawa, Y., Ishii-Minami, N., Akimoto-Tomiyama, C., Dohmae, N.,
+Takio, K., Minami, E. and et al.(2006) Plant cells recognize chitin fragments
+for defense signaling through a plasma membrane receptor. Proc. Natl
+Acad. Sci. USA ,103(29), 11086 –11091. https://doi.org/10.1073/pnas.0508
+882103
+Li, W., Zhu, Z., Chern, M., Yin, J., Yang, C., Ran, L., Cheng, M. et al.(2017) A
+natural allele of a transcription factor in rice confers broad-spectrum blastresistance. Cell,170(1), 114 –126.
+Liu, D., Chen, X., Liu, J., Ye, J. and Guo, Z.(2012) The rice ERF transcription
+factor OsERF922 negatively regulates resistance to Magnaporthe oryzae and
+salt tolerance. J. Exp. Bot ,63, 3899 –3911.
+Liu, J., Park, C.H., He, F., Nagano, M., Wang, M., Bellizzi, M., Zhang, K.
+et al .(2015) The RhoGAP SPIN6 associates with SPL11 and OsRac1 and
+negatively regulates programmed cell death and innate immunity in rice.PLoS Pathog ,11(2), e1004807.
+Liu, L., Sonbol, F.M., Huot, B., Gu, Y., Withers, J., Mwimba, M., Yao, J.
+et al.(2016) Salicylic acid receptors activate jasmonic acid signalling through a
+non-canonical pathway to promote effector-triggered immunity. Nat.
+Commun ,7,1
+–10.
+Liu, W., Xie, X., Ma, X., Li, J., Chen, J. and Liu, Y.G.(2015b) DSDecode: a web-
+based tool for decoding of sequencing chromatograms for genotyping oftargeted mutations. Mol. Plant ,8(9), 1431 –1433. https://doi.org/10.1016/j.
+molp.2015.05.009
+Livak, K.J. and Schmittgen, T.D.(2001) Analysis of relative gene expression data
+using real-time quantitative PCR and the 2 /C0
+DDCT method. Methods ,25(4),
+402–408. https://doi.org/10.1006/meth.2001.1262
+Lykke-Andersen, S. and Jensen, T.H.(2015) Nonsense-mediated mRNA decay:
+an intricate machinery that shapes transcriptomes. Nat. Rev. Mol. Cell Biol ,
+16, 665 –677.
+Ma, X., Zhang, Q., Zhu, Q., Liu, W., Chen, Y., Qiu, R., Wang, B. et al.(2015) A
+robust CRISPR/Cas9 system for convenient, high-efﬁciency multiplex genome
+editing in monocot and dicot plants. Mol. Plant ,8, 1274 –1284.
+Oliva, R., Ji, C., Atienza-Grande, G., Huguet-Tapia, J.C., Perez-Quintero, A., Li,
+T., Eom, J.-S. et al.(2019) Broad-spectrum resistance to bacterial blight in rice
+using genome editing. Nat. Biotechnol ,37, 1344 –1350.
+Qiu, D., Xiao, J., Ding, X., Xiong, M., Cai, M., Cao, Y., Li, X. et al .(2007)
+OsWRKY13 mediates rice disease resistance by regulating defense-related
+genes in salicylate- and jasmonate-dependent signaling. Mol. Plant Microbe
+Interact ,20(5), 492 –499. https://doi.org/10.1094/MPMI-20-5-0492
+Romer, P., Recht, S., Strauss, T., Elsaesser, J., Schornack, S., Boch, J., Wang, S.
+et al .(2010) Promoter elements of rice susceptibility genes are bound and
+activated by speciﬁc TAL effectors from the bacterial blight pathogen.
+Xanthomonas Oryzae Pv. Oryzae. New Phytol ,187, 1048 –1057.
+Ryu, H.S., Han, M., Lee, S.K., Cho, J.I., Ryoo, N., Heu, S., Lee, Y.H. et al.(2006)
+A comprehensive expression analysis of the WRKY gene superfamily in rice
+ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 20, 876–885Yanbiao Zhou et al. 884
+ 14677652, 2022, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/pbi.13766 by SEA ORCHID (Thailand), Wiley Online Library on [01/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+plants during defense response. Plant Cell Rep ,25(8), 836 –847. https://doi.
+org/10.1007/s00299-006-0138-1
+Sester, M., Raveloson, H., Tharreau, D. and Dusserre, J.(2014) Conservation
+agriculture cropping system to limit blast disease in upland rainfed rice. Plant
+Pathol ,63(2), 373 –381. https://doi.org/10.1111/ppa.12099
+Tang, L., Mao, B., Li, Y., Lv, Q., Zhang, L., Chen, C., He, H. et al .(2017)
+Knockout of OsNramp5 using the CRISPR/Cas9 system produces low Cd-
+accumulating indica rice without compromising yield. Sci. Rep ,7,1–12.
+Tao, H., Shi, X., He, F., Wang, D., Xiao, N., Fang, H., Wang, R. et al .(2021)
+Engineering broad-spectrum disease-resistant rice by editing multiplesusceptibility genes. J. Integr. Plant Biol ,63, 1639 –1648.
+Tao, Z., Liu, H., Qiu, D., Zhou, Y., Li, X., Xu, C. and Wang, S.(2009) A pair of
+allelic WRKY genes play opposite roles in rice-bacteria interactions. Plant
+Physiol ,151(2), 936 –948. https://doi.org/10.1104/pp.109.145623
+Wang, C., Zhang, X., Fan, Y., Gao, Y., Zhu, Q., Zheng, C., Qin, T. et al.(2015)
+XA23 is an executor R protein and confers broad-spectrum disease resistance
+in rice. Mol. Plant ,8, 290 –302.
+Wang, F., Wang, C., Liu, P., Lei, C., Hao, W., Gao, Y., Liu, Y.G. et al.(2016)
+Enhanced rice blast resistance by CRISPR/Cas9-targeted mutagenesis of theERF transcription factor gene OsERF922 .PLoS One ,11(4), e0154027.
+Wang, N., Xiao, B. and Xiong, L.(2011) Identiﬁcation of a cluster of PR4-like
+genes involved in stress responses in rice. J. Plant Physiol ,168(18), 2212 –
+2224. https://doi.org/10.1016/j.jplph.2011.07.013
+Xie, K., Zhang, J. and Yang, Y.(2014) Genome-wide prediction of highly speciﬁc
+guide RNA spacers for CRISPR-Cas9-mediated genome editing in modelplants and major crops. Mol. Plant ,7, 923 –926.
+Xu, Z., Xu, X., Gong, Q., Li, Z., Li, Y., Wang, S., Yang, Y. et al .(2019)
+Engineering broad-spectrum bacterial blight resistance by simultaneously
+disrupting variable TALE-binding elements of multiple susceptibility genes inrice. Mol. Plant ,12, 1434 –1446.
+Yin, J., Zou, L., Zhu, X., Cao, Y., He, M. and Chen, X.(2021) Fighting the enemy:
+How rice survives the blast pathogen’s attack.
+The Crop J ,9(3), 543 –552.
+https://doi.org/10.1016/j.cj.2021.03.009
+Yin, X., Zou, B., Hong, X., Gao, M., Yang, W., Zhong, X., He, Y. et al.(2018)
+Rice copine genes OsBON1 and OsBON3 function as suppressors of broad-
+spectrum disease resistance. Plant Biotech. J ,16, 1476 –1487.
+Yuan, L.(1994) Puriﬁcation and production of foundation seed of rice PGMS
+and TGMS lines. Hybrid Rice ,2,1 5–16.
+Zhang, J., Zhang, H., Botella, J.R. and Zhu, J.K.(2018) Generation of new
+glutinous rice by CRISPR/Cas9-targeted mutagenesis of the Waxy gene in elite
+rice varieties. J. Integr. Plant Biol ,60,3 6 9 –375.
+Zhao, H., Wang, X., Jia, Y., Minkenberg, B., Wheatley, M., Fan, J., Jia, M.H.
+et al .(2018) The rice blast resistance gene Ptrencodes an atypical protein
+required for broad-spectrum disease resistance. Nat. Commun ,9,1–12.
+Zhou, H., He, M., Li, J., Chen, L., Huang, Z., Zheng, S., Zhu, L. et al .(2016)
+Development of commercial thermo-sensitive genic male sterile rice
+accelerates hybrid rice breeding using the CRISPR/Cas9-mediated TMS5
+Editing System. Sci. Rep ,6(1), 1 –12. https://doi.org/10.1038/srep37395
+Zhou, Y.B., Liu, C., Tang, D.Y., Yan, L., Wang, D., Yang, Y.Z., Gui, J.S.
+et al.(2018) The receptor-like cytoplasmic kinase STRK1 phosphorylates and
+activates CatC, thereby regulating H 2O2homeostasis and improving salt
+tolerance in rice. Plant Cell ,30, 1100 –1118.
+Zhou, Y., Zhang, C., Lin, J., Yang, Y., Peng, Y., Tang, D., Zhao, X. et al.(2015)
+Over-expression of a glutamate dehydrogenase gene, MgGDH, fromMagnaporthe grisea confers tolerance to dehydration stress in transgenic
+rice. Planta ,241(3), 727 –740. https://doi.org/10.1007/s00425-014-2214-z
+Zhu, Z., Yin, J., Chern, M., Zhu, X., Yang, C., He, K., Liu, Y. et al.(2020) New
+insights into bsr-d1 -mediated broad-spectrum resistance to rice blast. Mol.
+Plant Pathol ,21, 951 –960.
+Supporting information
+Additional supporting information may be found online in the
+Supporting Information section at the end of the article.
+Figure S1 Cas9-induced homozygous mutations in the T 0
+generation rice plants. (a-d) homozygous mutations identiﬁed at
+the target sites of bsr-d1 ,pi21,erf922 in corresponding single
+mutants (a-c) or triple mutants (d).
+Figure S2 Amino acid alignment of LK638S and mutant protein
+sequences. (a-c) Alignment of the amino acid sequence of Bsr-d1
+(a),Pi21 (b) and ERF922 (c) between LK638S and mutant lines.
+The dark blue, red and light blue shading indicate 100%, ≥75%
+and≥50% similarity, respectively.
+Figure S3 Transcriptional abundance of Bsr-d1 ,Pi21 andERF922
+in LK638S and mutant lines. (a-c) Relative expression of the Bsr-d1
+(a),Pi21 (b) and ERF922 (c) in LK638S and mutant lines by RT-
+qPCR. Data are presented as mean /C6SD (n =3,**P<0.01,
+Student’s t-test ).
+Figure S4 Natural nursery tests showed leaf blast resistance at
+seedling stage. (a-d) Phenotypes of single mutants bsr-d1 (a),pi21
+(b),erf922 (c) and triple mutants bsr-d1pi21erf922 (d).
+Figure S5 Transcriptional abundance of ERF922 inbsr-d1 ,pi21
+andLK638S . Data are presented as mean /C6SD (n =3).
+Figure S6 Evaluation of panicle blast resistance at natural
+nurseries. Percentage of diseased panicle =% (the number of
+diseased panicles/total number of panicles). Data are presented asmean /C6SD (n =20,**P<0.01, Student’s t-test ).
+Figure S7 Transcriptional abundance of the peroxidase genes by
+RT-qPCR in Bsr-d1 knockout plants. (a-c) mRNA levels of the
+Os05g04470 (a),Os10g39170 (b) and Os01g73170
+(c) genes in
+LK638S and bsr-d1 mutant lines under normal growth condition
+by RT-qPCR. (d) H 2O2content in LK638S and bsr-d1 mutant lines
+under normal growth condition. Data are presented as mean /C6
+SD (n =3,**P=0.01, Student’s t-test ).
+Figure S8 Transcriptional abundances of SA- and JA-regulated
+defense-related genes in mutant lines. (a-d) Expression levels ofthe genes involved in SA (a-c) and JA (d) signal transduction in
+LK638S, bsr-d1-9 ,pi21-1 anderf922-1 were determined at 0h as
+well as 72h after FuJ infection by RT-qPCR. Data are presented asmean /C6SD (n =3,*P=0.05; **P=0.01, Student’s t-test ).
+Table S1 Primers used in this study
+Table S2 Xoo strains used in this study
+ª2021 The Authors. Plant Biotechnology Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley & Sons Ltd., 20, 876–885Engineering of disease-resistant TGMS rice 885
+ 14677652, 2022, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/pbi.13766 by SEA ORCHID (Thailand), Wiley Online Library on [01/04/2025]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

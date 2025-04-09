@@ -1,0 +1,885 @@
+ International Journal of  
+Molecular Sciences
+Review
+Recent Progress in Rice Broad-Spectrum Disease Resistance
+Zhiquan Liu1, Yujun Zhu1, Huanbin Shi1, Jiehua Qiu1, Xinhua Ding2
+and Yanjun Kou1,*
+/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045 /gid00001
+/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046
+Citation: Liu, Z.; Zhu, Y.; Shi, H.;
+Qiu, J.; Ding, X.; Kou, Y. Recent
+Progress in Rice Broad-Spectrum
+Disease Resistance. Int. J. Mol. Sci.
+2021 ,22, 11658. https://doi.org/
+10.3390/ijms222111658
+Academic Editors: Ki-Hong Jung and
+Jae-Yean Kim
+Received: 4 October 2021
+Accepted: 25 October 2021
+Published: 28 October 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).1State Key Lab of Rice Biology, China National Rice Research Institute, Hangzhou 311400, China;
+lzq770799446@163.com (Z.L.); Zhuyujun@caas.cn (Y.Z.); shihuanbin@caas.cn (H.S.); qiujiehua@caas.cn (J.Q.)
+2State Key Laboratory of Crop Biology, Shandong Provincial Key Laboratory for Biology of Vegetable Diseases
+and Insect Pests, College of Plant Protection, Shandong Agricultural University, Taian 271018, China;
+xhding@sdau.edu.cn
+*Correspondence: kouyanjun@caas.cn
+Abstract: Rice is one of the most important food crops in the world. However, stable rice production
+is constrained by various diseases, in particular rice blast, sheath blight, bacterial blight, and virus
+diseases. Breeding and cultivation of resistant rice varieties is the most effective method to control the
+infection of pathogens. Exploitation and utilization of the genetic determinants of broad-spectrum
+resistance represent a desired way to improve the resistance of susceptible rice varieties. Recently,
+researchers have focused on the identiﬁcation of rice broad-spectrum disease resistance genes, which
+include Rgenes, defense-regulator genes, and quantitative trait loci (QTL) against two or more
+pathogen species or many isolates of the same pathogen species. The cloning of broad-spectrum
+disease resistance genes and understanding their underlying mechanisms not only provide new
+genetic resources for breeding broad-spectrum rice varieties, but also promote the development of
+new disease resistance breeding strategies, such as editing susceptibility and executor Rgenes. In
+this review, the most recent advances in the identiﬁcation of broad-spectrum disease resistance genes
+in rice and their application in crop improvement through biotechnology approaches during the past
+10 years are summarized.
+Keywords: Oryza sativa ; broad-spectrum resistance; rice blast; bacterial blight; breeding
+1. Introduction
+Rice ( Oryza sativa L.) is the most important food crop, which is consumed by approx-
+imately 50% of the world’s population, with its consumption growing dramatically in
+many parts of the world. Stable rice production is constrained by various biotic stresses,
+including fungal blast caused by Magnaporthe oryzae , sheath blight caused by Rhizoctonia
+solani , false smut caused by Ustilaginoidea virens , bakanae disease due to Fusarium fujikuroi ,
+bacterial blight caused by Xanthomonas oryzae pv. oryzae (Xoo), bacterial leaf streak caused
+byXanthomonas oryzae pv. oryzicola (Xoc), and virus diseases. The yield loss of rice caused
+by various diseases averages upward of 30%. Therefore, it is critical to adopt effective
+means to control these diseases to ensure global food security. In addition to encouraging
+farmers to exercise good farming practices, application of pesticides remains one of the
+main methods of disease control, but the increase in costs and their harmful effects on
+the environment and operators cannot be discounted. These make the farmers largely
+dependent on the cultivation of new resistant varieties, which is considered to be the most
+effective method so far.
+Broad-spectrum resistance, which refers to resistance against two or more types of
+pathogen species or the majority of races/isolates of the same pathogen species, is one
+of the ultimate goals of breeders for rice improvement [ 1]. Exploitation of the genetic
+determinants of broad-spectrum resistance will improve the resistance of the susceptible
+varieties. On this account, breeders and biotechnologists are trying to obtain the source of
+broad-spectrum resistance to understand and utilize the genetics underlying this process.
+Int. J. Mol. Sci. 2021 ,22, 11658. https://doi.org/10.3390/ijms222111658 https://www.mdpi.com/journal/ijmsInt. J. Mol. Sci. 2021 ,22, 11658 2 of 17
+With the development of rice molecular biology, functional genomics, and gene editing tech-
+nology, great progress has been made in the broad-spectrum disease resistance genes in rice.
+It is worth mentioning that many extremely important broad-spectrum disease resistance
+genes and their mechanisms and applications were reported 10 years ago. These works
+have been well summarized in several reviews and will not be highlighted here [1,2]. This
+review focuses on the progress in the identiﬁcation of broad-spectrum disease resistance
+genes in rice and their application in crop improvement during the past 10 years.
+2. Identiﬁed Rice Broad-Spectrum Disease Resistance Genes in Past 10 Years
+2.1. R Genes Confer Broad-Spectrum Disease Resistance in Rice
+The ability of plants to defend themselves against microbes is speciﬁed by disease
+resistance (R) genes-mediated resistance and basal resistance. Upon recognition of an
+invading pathogen, R proteins, mostly from the nucleotide-binding leucine-rich repeat
+receptor (NLR) family, detect the secreted pathogen effectors to activate a multitude of
+responses that ultimately lead to resistance. These responses include Ca2+inﬂux, ROS
+(reactive oxygen species) accumulation, mitogen-activated protein (MAP) kinase activation,
+defense hormone signaling activation, and upregulation of defense-related genes [ 3]. In
+recent years, important progress has been achieved in cloning and mechanical analysis
+ofRgenes. These identiﬁed Rgenes provide not only new genetic resources for breeding
+broad-spectrum rice varieties, but also new strategies to improve resistance.
+Rice blast, caused by M. oryzae , is the most devastating disease of rice and reduces
+yield by 10–35%. To date, approximately 100 Rgenes/alleles against M. oryzae have been
+identiﬁed, of which more than 26 Rgenes/alleles were cloned [ 2]. Among these genes, Pi50,
+Pi54rh ,Pi56 (t),Pi64 ,Pigm ,Pizh,Ptr, and Pita2 were cloned as broad-spectrum resistance
+Rgenes in the past 10 years [ 4–10] (Figure 1, Table 1). Pi50 ,Pigm , and Pizh are allelic
+toPi2/Pi9 , which are well-known broad-spectrum resistance NBS-LRR (nucleotide binding
+site-leucine rich repeat ) genes on the chromosome 6, with different resistance spectra against
+M. oryzae . One of these alleles Pigm has been conﬁrmed with stable resistance to panicle
+blast [ 7].Pi54rh , an ortholog of Pi54, encodes an NBS-LRR protein with a unique Zinc ﬁnger
+domain. Both Pi56 (t) and Pi64 also belong to the NBS-LRR family of disease resistance
+genes. Notably, the constitutively expressed Pi64 conferred resistance to both leaf and
+neck blast. Unlike most blast Rgenes, Ptr, which is required for broad-spectrum blast
+resistance mediated by Rgenes Pita and Pita2 , encodes a four Armadillo (ARM) repeat
+protein. Furthermore, more alleles or natural variation of broad-spectrum blast resistance
+Rgenes have been investigated, including geographically distinct and domain-speciﬁc
+sequence variations of Pib, novel alleles of Piklocus Pi1,Pike, and Pikg,Pi54 alleles, novel
+Pi21 haplotypes, and novel alleles of Pi2/9 locus [ 11–22]. In addition, four broad-spectrum
+resistance Rgenes, Pi-hk1 ,Pi57 (t),Pi65 (t), and Pi69 (t), were ﬁnely mapped in the past
+10 years [23–26].
+In addition to rice blast, bacterial blight, caused by Xoo, is also a globally devastating
+rice disease. In rice, at least 46 genes that confer dominant or recessive host resistance
+toXoo have been identiﬁed, of which more than 16 Rgenes were cloned [ 27]. Among
+them, Xa7,Xa23 ,Xa41 (t), and Xa47 (t) were cloned as broad-spectrum resistance Rgenes in
+the past 10 years [ 27] (Figure 1, Table 1). Xa7, which encodes a 113 aa unknown protein,
+is a dominant Rgene that provides broad-spectrum and extremely durable resistance to
+Xoo. The transcription of Xa7 is speciﬁcally activated by the Xooisolates with transcription
+activator-like effector (TALE) AvrXa7 or PthXo3 to act as an executor [27]. Another execu-
+torRgene, Xa23 , which is induced by TALE AvrXa23, confers extremely broad-spectrum
+resistance to Xoo[28].xa41 (t), an allele of sugar transporter OsSWEET14 , confers resistance
+to half of the tested Xooisolates [ 29]. Similar to Xa23 ,Xa47 (t) is from the wild rice Oryza
+ruﬁpogon. Xa47 (t), encoding a NLR protein, is highly resistant to all tested ten Xoo iso-
+lates [ 30]. In addition to these cloned Rgenes, a broad-spectrum bacterial blight resistance
+gene Xa33 from Oryza nivara has been ﬁnely mapped [31].Int. J. Mol. Sci. 2021 ,22, 11658 3 of 17
+Int. J. Mol. Sci. 2021 , 22, x FOR PEER REVIEW 3 of 18 
+ 
+  
+Figure 1. R and defense regulator genes with broad-spectrum disease resistance identified in past 10 years. The R genes 
+are represented in bold black font. The black do ts on each chromosome  represent centromeres.  
+In addition to rice blast, bacterial blight, caused by Xoo, is also a globally devastating 
+rice disease. In rice, at least 46 genes that confer dominant or recessive host resistance to 
+Xoo have been identified, of which more than 16 R genes were cloned [27]. Among them, 
+Xa7, Xa23 , Xa41(t) , and Xa47(t)  were cloned as broad-spectrum resistance R genes in the 
+past 10 years [27] (Figure 1, Table 1). Xa7, which encodes a 113 aa unknown protein, is a 
+dominant R gene that provides broad-spectrum and extremely durable resistance to Xoo. 
+The transcription of Xa7 is specifically activated by the Xoo isolates with transcription ac-
+tivator-like effector (TALE) Av rXa7 or PthXo3 to act as an executor [27]. Another executor 
+R gene, Xa23 , which is induced by TALE AvrXa23, confers extremely broad-spectrum re-
+sistance to Xoo [28]. xa41(t) , an allele of sugar transporter OsSWEET14 , confers resistance 
+to half of the tested Xoo isolates [29]. Similar to Xa23 , Xa47(t)  is from the wild rice Oryza 
+rufipogon.  Xa47(t) , encoding a NLR protein, is highly resistant to all tested ten Xoo isolates 
+Figure 1. Rand defense regulator genes with broad-spectrum disease resistance identiﬁed in past 10 years. The Rgenes are
+represented in bold black font. The black dots on each chromosome represent centromeres.
+Unlike rice blast and bacterial blight, no Rgene for serious diseases sheath blight
+and rice false smut has been identiﬁed [ 32,33]. Moreover, only one rice stripe virus (RVS)
+resistance gene, STV11 , has been cloned [ 34]. The molecular mechanisms underlying rice–
+virus interaction remain poorly understood. Therefore, so far, there is no broad-spectrum
+resistance Rgene for these diseases.
+For broad-spectrum resistance Rgenes, it is worth noting that the Rgenes are tagged as
+broad-spectrum resistance genes because they can resist multiple isolates of one pathogen
+rather than two or more types of pathogen species. However, in the case of many isolates
+tested, it is unlikely for any Rgene to be resistant to only one isolate. At present, there is no
+standard in terms of how many isolates or what proportion of isolates an Rgene confers
+resistance to for it to be claimed as a broad-spectrum resistance Rgene. Furthermore,
+although so many broad-spectrum resistance genes have been identiﬁed, the mechanism ofInt. J. Mol. Sci. 2021 ,22, 11658 4 of 17
+these genes mediating broad-spectrum resistance to rice disease is not yet clear. In the broad-
+spectrum resistance Rgene Pi9case, the corresponding Avirulence gene AvrPi9 exists widely
+in various M. oryzae isolates [ 35]. To determine whether other blast Rgenes are similar,
+the cloning of their corresponding Avirulence genes and analysis of their distribution in M.
+oryzae isolates will give some hints. Similar to Rgenes against blast, the resistance spectrum
+ofRgenes against Xoo may also be determined by the distribution of corresponding
+Avirulence genes, TALE in most of cases, in Xoo isolates. Actually, considering current
+knowledge, it is difﬁcult to predict the mechanism underlying R protein-mediated broad-
+spectrum resistance in addition to the wide distribution of corresponding Avirulence genes.
+The research progress of the interactions between R protein and effectors from pathogens
+will increase our understanding of R protein-mediated broad-spectrum resistance.
+Table 1. Rgenes with broad-spectrum disease resistance in rice reported in past 10 years.
+Gene Name Protein TypeIsolates or
+Pathogens1 Chromosome Reference
+Pi64 NBS-LRR 9 Moisolates 1 [6]
+Pizh NBS-LRR 31 Moisolates 6 [8]
+Pigm NBS-LRR 30 Moisolates 6 [7]
+Pi50 NBS-LRR 20 Moisolates 6 [22]
+Pi56 (t) NBS-LRR 19 Moisolates 9 [5]
+Pi54rh NBS-LRR 7 Moisolates 11 [4]
+Ptr ARM repeat protein 331 Moisolates 12 [9]
+Pita2 ARM repeat protein 64 Moisolates 12 [10]
+Xa7 Executor R protein 8 Xooisolates 6 [27]
+Xa23 Executor R protein 39 Xooisolates 11 [28]
+xa41 (t) Sugar transporter (SWEET) 18 Xooisolates 11 [29]
+Xa47 (t) NBS-LRR 10 Xooisolates 11 [30]
+1The pathogens and number of isolates to which resistance is conferred by the gene in the ﬁrst column. Magna-
+porthe oryzae ,Mo;Xanthomonas oryzae pv. oryzae ,Xoo.
+2.2. Defense Regulator Genes Contribute to Broad-Spectrum Disease Resistance
+Differing from Rgenes, defense regulator genes often confer partial resistance to a
+broad spectrum of pathogen isolates or various pathogens. In the past 10 years, there were
+at least 56 broad-spectrum resistant defense regulator genes identiﬁed which positively or
+negatively regulate the resistance to rice diseases (Figure 1, listed in Table 2). The proteins
+encoded by these genes are transcriptional factors, kinases, peroxidases, E3 ubiquitin
+ligases, ferredoxin-dependent glutamate synthases, glutaredoxins, etc. In this review, we
+classify these broad-spectrum resistant defense regulator genes according to the types of
+pathogens they resist.
+Table 2. Defense regulator genes showing broad-spectrum disease resistance.
+Gene Name Protein Type Isolates or Pathogens1Chr2Reference
+Bsr-d1 C2H2-type transcription factor 9 Moisolates 3 [36,37]
+OsMYB30 MYB transcription factor 5 Moisolates 2 [38]
+OsNAC60 NAC transcription factor 20 Moisolates 12 [39]
+OsWRKY45 WRKY transcription factor 1 Moisolate 5 [40]
+PIBP1 RRM (RNA recognition motif) protein 3 Moisolates 3 [41]
+OsBBI1 RING E3 ubiquitin ligase 7 Moisolates 6 [42]
+LHCB5 Light-harvesting complex II protein 21 Moisolates 11 [43]
+OsXB25 Plant-speciﬁc ankyrin-repeat (PANK) protein 1 Xooisolate 9 [44]Int. J. Mol. Sci. 2021 ,22, 11658 5 of 17
+Table 2. Cont.
+Gene Name Protein Type Isolates or Pathogens1Chr2Reference
+OsBiP3Endoplasmic reticulum (ER) chaperone,
+luminal-binding protein 32Xooisolates 5 [45]
+OsNPR1 BTB/POZ-ankyrin repeat protein 1 Moisolate, 2 Xooisolates 1 [46]
+OsCRK6 Cysteine-rich-receptor-like kinases 1 Xooisolate 7 [47]
+OsCRK10 Cysteine-rich-receptor-like kinases 1 Xooisolate 7 [47]
+OsCDPK1 Calcium-dependent protein kinases Xoo 3 [48]
+OsILA1 Raf-like MAPKKK 9 Xooisolates 6 [49]
+lc7 Ferredoxin-dependent glutamate synthase1 7 Xooisolates 7 [50]
+OsLYP4 Lysin motif-containing proteins1Moisolate, 1 Xooisolate, 1 Xoc
+isolate9 [51]
+OsLYP6 Lysin motif-containing proteins1Moisolate, 1 Xooisolate, 1 Xoc
+isolate6 [51]
+OsWRKY67 WRKY transcription factor 2 Moisolates, 2 Xooisolates 5 [52]
+IP A1 Transcription factors 12 Moisolates 8 [53,54]
+OsTFIIA a, Transcription factor IIA subunits 10 Xooisolates, 6 Xocisolates 5 [55]
+OsTFIIA b Transcription factor IIA subunits 10 Xooisolates, 6 Xocisolates 5 [55]
+OsGLP2-1 Germin-like protein 1 Moisolate, 1 Xooisolate 2 [56]
+OsSnRK1aSucrose nonfermenting 1-related protein
+kinase 11Moisolate, 1 Xooisolate, 1 Cm
+isolate and 1 Rsisolate5 [57]
+OSK35/OsSnRK1bSucrose nonfermenting 1-related protein
+kinases1Moisolate, 1 Xooisolate 3 [58]
+OsCPK4 Calcium-dependent protein kinase 1 Moisolate, 1 Xooisolate 2 [59]
+BSR1 BIK1-like receptor-like cytoplasmic kinase2Moisolates, 3 Xooisolates, 1 Bg
+isolate, 1 Cmisolate, rice stripe
+virus9 [60]
+OsBAG4 Ubiquitin-like and BAG domain 1 Moisolate, 1 Xooisolate 1 [61]
+EBR1 RING-Type E3 Ligase 1 Moisolate, 6 Xooisolates 5 [61]
+SPIN6 Rho GTPase-activating protein (RhoGAP) 1 Moisolate, 1 Xooisolate 7 [62]
+OsWAK25 Wall-associated kinases 2 Moisolates, 1 Xooisolate 3 [63]
+OsCUL3a Cullin 3-based RING E3 ubiquitin ligases 1 Moisolate, 3 Xooisolates 2 [64]
+OsDRP1E Dynamin-related protein 1 Moisolate, 1 Xooisolate 9 [65]
+SPL33Eukaryotic translation elongation factor 1
+alpha (eEF1A)-like protein12Moisolates, 11 Xooisolates 1 [66]
+LMM5.1Eukaryotic translation elongation factor 1A
+(eEF1A)-like protein6Moisolates, 5 Xooisolates 1 [67]
+LMM5.4Eukaryotic translation elongation factor 1A
+(eEF1A)-like protein6Moisolates, 5 Xooisolates 4 [67]
+LML1 Eukaryotic release factor 1 (eRF1) protein 4 Moisolates, 6 Xooisolates 4 [68]
+OsABA2 Xanthoxin dehydrogenase 2 Moisolates, 4 Xooisolates 3 [69]
+SPL35CUE (coupling of ubiquitin conjugation to ER
+degradation) domain-containing protein8Moisolates, 4 Xooisolates 3 [70]
+OsHDT701 Histone deacetylase 4 Moisolates, 1 Xooisolate 5 [71]
+OsMPK15 Mitogen-activated protein kinase 2 Moisolates, 2 Xooisolates 11 [72]Int. J. Mol. Sci. 2021 ,22, 11658 6 of 17
+Table 2. Cont.
+Gene Name Protein Type Isolates or Pathogens1Chr2Reference
+Bsr-k1Tetratricopeptide repeats (TPRs)containing
+protein7Moisolates, 10 Xooisolates 10 [73]
+OsALDH2B1 Aldehyde dehydrogenase1Moisolate, 1 Xooisolate, 1 Xoc
+isolate6 [74]
+OsP AL4 Phenylalanine ammonia-lyase1Moisolate, 1 Xooisolate, 1 Xoc
+isolate2 [75]
+OsHsfB4d Class B heat-shock factor 1 Xooisolate, 1 Xocisolate 3 [76]
+OsHsp18.0-CI Heat-shock proteins 5 Xocisolates 3 [77]
+OsP AD4 Phytoalexin-deﬁcient 4 2 Xooisolates, 1 Xocisolate 11 [78]
+OsGRXS15 Glutaredoxins family proteins 1 Xooisolate, 1 Ffisolate 1 [79]
+OsNH5N16 Pathogenesis-related genes 1 homologs (NHs) 1Xooisolates, 1 Ffisolate 11 [80]
+OsASR2 Abscisic acid, stress, and ripening 2 protein 1 Xooisolate, 1 Xocisolate 11 [81]
+Os2H16 Short-chain peptide-encoding protein 1 Xooisolate, 1 Xocisolate 6 [82]
+OsGF14e 14-3-3 protein 1 Xooisolate, 1 Rsisolate 2 [83]
+OsWRKY30 WRKY transcription factors 1 Moisolate, 1 Rsisolate 8 [84]
+OsACS21-aminocyclopropane-1-carboxylic acid
+synthase2Moisolates, 1 Rsisolate 4 [85]
+OsMESL Methyl esterase-like protein1Moisolate, 1 Xooisolate, 1 Rs
+isolate7 [86]
+OsBON1 Copine protein1Moisolate, 3 Xooisolates, 1 Rs
+isolate2 [87]
+OsBON3 Copine protein1Moisolate, 3 Xooisolates, 1 Rs
+isolate5 [87]
+1The pathogens and number of isolates to which resistance is conferred by the genes in the ﬁrst colum. Burkholderia glumae ,Bg;Cochliobolus
+miyabeanus ,Cm;Magnaporthe oryzae ,Mo;Rhizoctonia solani ,Rs;Fusarium fujikuroi ,Ff;Xanthomonas oryzae pv.oryzae ,Xoo;Xanthomonas oryzae
+pv.oryzicola ,Xoc.2Chr: chromosome.
+In the past 10 years, several broad-spectrum resistant defense regulator genes against
+M. oryzae were identiﬁed. Through a genome-wide association study (GWAS), a natural
+allele of a C2H2-type transcription factor bsr-d1 was identiﬁed in rice that confers non-
+race-speciﬁc resistance to blast. This allele causes a lower gene expression level, and then
+downregulates expression of three peroxidase-encoding genes, Os05g04470 ,Os10g39170 ,
+and Perox3 , resulting in accumulation of H 2O2and enhanced broad-spectrum resistance
+toM. oryzae [36,37]. In addition, an MYB transcription factor (OsMYB30) is also involved
+inbsr-d1 -mediated broad-spectrum blast resistance by activating the lignin biosynthesis
+genes Os4CL3 and Os4CL5 to strengthen cell walls [ 38]. The other three transcription
+factors, OsNAC60, OsWRKY45, and RRM (RNA recognition motif) protein PIBP1 (PigmR-
+interacting and blast resistance protein 1), also contribute to broad-spectrum blast resistance
+in rice. OsNAC60 , which is a target of Osa-miR164a, negatively regulates rice immunity
+against the blast fungus M. oryzae by decreasing programmed cell death, ion leakage, ROS
+accumulation, callose deposition, and defense-related gene expression [ 39]. OsWRKY45
+mediates the blast resistance of CC-NB-LRR protein Pb1 [ 40]. PIBP1 speciﬁcally interacts
+with PigmR and other similar NLRs, and it functions as an unconventional transcription
+factor to activate the expression of OsWAK14 and OsP AL1 to trigger blast resistance [ 41].
+In addition to transcription factors, the RING protein OsBBI1 with E3 ligase activity and
+light-harvesting complex II protein LHCB5 are also involved in broad-spectrum blast
+resistance. OsBBI1 confers broad-spectrum resistance against M. oryzae by increasing H 2O2
+accumulation in cells and modifying the cell-wall defense [ 42]. Phosphorylation of LHCB5
+enhances resistance to M. oryzae through the accumulation of ROS in the chloroplast [43].Int. J. Mol. Sci. 2021 ,22, 11658 7 of 17
+Several broad-spectrum resistant defense-regulator genes against Xoowere also iden-
+tiﬁed in rice in the past 10 years. In rice, several genes involved in receptor-mediated
+broad-spectrum resistance and systemic acquired resistance (SAR) likely contribute to
+broad-spectrum resistance to Xoo. The XA21-binding protein XB25, a plant-speciﬁc ankyrin
+repeat (PANK) protein, contributes to the accumulation of receptor XA21 and maintenance
+of XA21-mediated broad-spectrum resistance to Xoo[44]. The endoplasmic reticulum (ER)
+chaperone, luminal-binding protein 3 (BiP3) negatively regulates resistance mediated by
+rice XA3, a receptor that provides broad-spectrum resistance to Xoo[45]. Overexpression of
+OsNPR1 (non-expressor of pathogenesis-related genes 1 ), a master gene for SAR in rice, greatly
+enhances resistance to Xoo[46]. Moreover, the cysteine-rich-receptor-like kinases (OsCRK6
+and OsCRK10) are required for OsNPR1 -mediated immunity [ 47]. In addition to CRK6 and
+CRK10, some kinases have been identiﬁed as conferring broad-spectrum resistance to Xoo.
+For instance, overexpression of a constitutively activated form of calcium-dependent pro-
+tein kinases OsCDPK1 confers Xooresistance by affecting OsPR10a expression in rice [48].
+OsILA1, a Raf-like MAPKKK, functions as a negative regulator and acts upstream of the
+OsMAPKK4–OsMAPK6 cascade against Xoo [49]. Unlike the type of genes mentioned
+above, lc7, encoding a mutant ferredoxin-dependent glutamate synthase 1 (Fd-GOGAT1),
+promotes ROS accumulation in the leaves and has high broad-spectrum resistance against
+seven Xoostrains [50].
+Defense regulator genes are different from pathogen-speciﬁc Rgenes, which can confer
+resistance to multiple pathogens. For instance, Lysin motif-containing protein genes LYP4
+and LYP6 , transcriptional regulator genes OsWRKY67 and IP A1 , the host basal transcription
+factor IIA subunit genes OsTFIIA and OsTFIIA , germin-like protein gene OsGLP2 -1,
+sucrose nonfermenting 1-related protein kinase 1 genes OsSnRK1a and OsSnRK1b /OSK35 ,
+calcium-dependent protein kinase gene OsCPK4 , and receptor-like cytoplasmic kinase gene
+broad-spectrum resistance 1 (BSR1) play a positive role in basal resistance against M. oryzae
+and Xoo[51–60]. In contrast, mutations in E3 ubiquitin ligase gene EBR1 (enhanced blight
+and blast resistance 1), RhoGAP SPIN6 , rice wall-associated kinase gene OsWAK25 , Cullin
+3-based RING E3 ligase gene OsCUL3a , dynamin-related protein gene OsDRP1E , eEF1A-
+like protein gene SPL33 , eukaryotic translation elongation factor 1A-like genes LMM5 .1
+and LMM5 .4, eukaryotic release factor 1 gene LMM1 ,abscisic acid 2 (OsABA2) , and CUE
+domain-containing protein gene SPL35 result in lesion mimic leaves and enhanced broad-
+spectrum resistance to M. oryzae and Xoo[61–70]. Differing from these lesion mimic genes,
+histone H4 deacetylase gene HDT701 and mitogen-activated protein kinase OsMPK15 ,
+whose mutant or overexpressing lines do not show lesion mimic leaves, negatively regulate
+the resistance against M. oryzae and Xoo [71,72]. Similarly, loss of function of the Bsr-k1
+gene, encoding a tetratricopeptide repeat (TPR)-containing protein, leads to accumulation
+ofOsP AL1–7 mRNAs, which confer broad-spectrum resistance against M. oryzae and Xoo
+with no major penalty on key agronomic traits [73].
+In addition, several genes have been reported as conferring broad-spectrum resistance
+against multiple pathogens other than both M. oryzae and Xoo. Aldehyde dehydrogenase
+OsALDH2B1 has a moonlight function as a transcriptional regulator to regulate a diverse
+range of biological processes involving G protein, brassinolide, jasmonic acid, and salicylic
+acid signaling pathways. Loss of function of OsALDH2B1 greatly enhanced resistance to M.
+oryzae ,Xoo, and Xoc[74]. Similarly, rice phenylalanine ammonia-lyase gene OsP AL4 is asso-
+ciated with resistance to M. oryzae ,Xoo, and Xoc[75]. Heat-shock factor OsHsfB4d binds
+the promoter and regulates the expression of a small heat-shock protein gene OsHsp18.0-CI
+to be resistant against Xooand Xoc[76,77]. Moreover, suppression of phytoalesin-deﬁcient 4
+OsP AD4 results in increased susceptibility to the Xooand Xoc[78]. Rice glutaredoxin gene
+OsGRXS15 and a novel NPR1 homolog gene OsNH5N16 contribute to broad-spectrum resis-
+tance to Xooand F. fujikuroi by regulating the expression of PRgenes related to SAR [ 79,80].
+Abscisic acid ,stress, and ripening 2 (ASR2) contributes to broad-spectrum resistance against
+Xooand R. solani by regulating the expression of a defense regulator gene Os2H16 [81,82].
+In contrast, 14-3-3 protein (GF14e) negatively affects cell death and disease resistance toInt. J. Mol. Sci. 2021 ,22, 11658 8 of 17
+Xooand R. solani [83]. WRKY transcription factor OsWRKY30 and 1-aminocyclopropane-1-
+carboxylic acid synthase gene ACS2 positively regulate the resistance against M. oryzae and
+R. solani [84,85]. Moreover, methyl esterase-like gene OsMESL and copine genes OsBON1
+and OsBON3 are critical suppressors of immunity to M. oryzae ,Xoo, and R. solani [86,87].
+These excellent studies on broad-spectrum resistant defense regulator genes show
+multiple characteristics. Firstly, with the increasing attention to broad-spectrum resistance,
+the reports of broad-spectrum resistance related genes have increased sharply in the
+past 10 years [ 1]. For breeders, whether these genes also show broad-spectrum disease
+resistance in the natural ﬁeld environment is still the focus of attention. Secondly, the
+connections between these broad-spectrum resistant defense regulator genes and their
+relationships with Rgenes remain largely unclear due to limited experimental evidence. It
+is possible that these broad-spectrum resistance defense regulator genes function in the
+convergence point of the crosstalk between the pathways of basal and R protein-mediated
+resistances or between the pathways initiated by different R proteins [ 1]. Thirdly, only a
+few broad-spectrum resistant defense regulator genes mediate resistance with little or no
+yield penalties. The tradeoff between broad-spectrum resistant defense regulator genes
+and rice yield is one of the important limiting factors, as summarized in Chen’s review [ 2].
+Last but not least, there are rare examples of using these disease resistance-related genes
+to obtain broad-spectrum disease-resistant varieties in breeding programs. Although it
+was very difﬁcult to effectively use these broad-spectrum resistant defense regulator genes
+in molecular breeding of rice until now, identiﬁcation of natural variations/alleles of
+these genes from rice varieties with excellent agronomic traits, artiﬁcial mutation, and
+genome-editing technology would provide important methods for broad-spectrum disease
+resistance.
+2.3. Identiﬁcation of Broad-Spectrum Disease Resistance Loci by QTL Mapping and
+GWAS Analysis
+Broad-spectrum resistance is a polygenic trait, whereby a combinatorial effect of major
+and minor genes mediates this trait [ 88]. With the advances of next-generation DNA
+sequencing and high-density molecular marker platforms, various quantitative trait loci
+(QTL) against rice blast, sheath blight, and/or bacterial leaf blight have been mapped
+to locate the source of these traits in the past 10 years. Using Heikezijing, a japonica rice
+landrace with broad resistance against rice blast and Suyunuo recombinant inbred lines,
+13 QTLs were identiﬁed to be effective against only one M. oryzae isolate, while the other
+seven QTLs may be non-isolate-speciﬁc because each QTL confers resistance to more than
+one isolate [ 89]. By evaluating the disease reactions of 60 US weedy rice accessions with
+14M. oryzae isolates, 28 resistant QTLs were identiﬁed, of which three loci contribute to
+non-isolate-speciﬁc resistance [ 90]. With a combination of genome-wide association studies
+(GWAS) and interval mapping analyses, 51 QTLs against Xooand Xocwere identiﬁed in
+multiparent advanced generation intercross populations, including 11 broad-spectrum
+resistance, three pathovar-speciﬁc, and 37 isolate-speciﬁc QTLs [ 88]. A GWAS analysis of
+236 diverse rice accessions revealed 12 QTLs, of which two QTLs showed broad-spectrum
+resistance to Xoc[91]. Recently, 147 SNP associated with Xooresistance were identiﬁed in
+222 predominantly Thai rice accessions; however, the signiﬁcantly associated SNP only
+occurred across a maximum of ﬁve Xoo isolates [ 92]. In rice, most resistance QTLs are
+conditioned to different populations and different QTL mapping analyses, which makes
+it difﬁcult to handpick suitable QTL candidates for breeding programs with multiple
+resistances. To integrate QTL from different studies, a meta-analysis of QTLs represents
+a good approach. Using meta-analysis, 48 meta-QTLs were obtained from 27 studies,
+of which MQTL8.1 and MGTL2.5 were associated with resistance to rice blast, sheath
+blight, and bacterial leaf blight [ 93]. Resistant QTLs confer a partial but frequently referred
+resistance to broad-spectrum pathogen isolates or diverse pathogens, which are considered
+as effective resources for breeding to achieve broad-spectrum resistance [ 1]. However,
+the results from all these studies clearly showed that most QTLs confer isolate- and/or
+pathogen-speciﬁc resistance; in other words, not all resistance QTLs are broad-spectrum.Int. J. Mol. Sci. 2021 ,22, 11658 9 of 17
+Moreover, there are few broad-spectrum resistant QTLs available for crop improvement
+programs, which results in the breeder needing a longer time and higher cost to pyramid
+QTLs to obtain broad-spectrum disease-resistant varieties.
+3. Strategies for Broad-Spectrum Disease Resistance Rice Breeding
+3.1. Gene Pyramiding Breeding Is an Effective Way to Obtain Broad-Spectrum Disease Resistance
+Rice Varieties
+Developing and using resistant varieties could effectively and economically control
+diseases. One of the effective ways to develop broad-spectrum resistance varieties is marker-
+assisted gene pyramiding. Numerous cloned Rgenes provide a wealth of information
+and resources for pyramiding breeding, which promoted the generation of pyramiding R
+gene lines with broader and enhanced resistance to bacterial blight and rice blast in the
+past 10 years. Introducing Piz/Pi2/Pi9,Pid3 , orPi54 or pyramiding the Rgenes Pi37 +
+Pid3 ,Pi5+Pi54 ,Pi54 +Pid3 ,Pigm +Pi37 ,Pi9+Pi54 ,Pigm +Pi1,Pigm +Pi33 ,Pigm +Pi54 ,
+Pi2+Pi46 +Pita,Pi2+Pi46 +Pigm , and Pib+Pi25 +Pi54 leads to broad-spectrum blast
+resistance [ 94–101]. Pyramiding the Rgenes Xa4 +xa5+Xa21 ,xa5+xa13 +Xa21 ,xa5+
+Xa21 ,Xa21 +Xa33 , and Xa23 with other genes, as well as Xa4 +xa5+Xa7 +xa13 +Xa21 ,
+provides a higher and broader resistance to Xoothan individual resistance genes [ 102–108].
+Moreover, pyramiding the genes Pi2+Xa7 and xa5+xa13 +Pi54 +qSBR7-1 +qSBR11-1 +
+qSBR11-2 confers broad-spectrum resistance to both M. oryzae and Xoo[109,110].
+All aforementioned studies give excellent examples of pyramiding Rgenes to obtain
+broad-spectrum resistance rice. However, it is still very difﬁcult to obtain broad-spectrum
+disease resistant varieties by polymerization breeding for several reasons [ 111,112]. The
+ﬁrst is that only a few Rgenes have been successfully used for molecular breeding processes.
+The existence of Rgenes containing resistant germplasms with excellent comprehensive
+traits is an important perquisite for breeding application. Secondly, the utilization of R
+genes in main modern rice varieties and the effectiveness of Rgenes in different rice-
+cultivating regions are still not very clear. Thirdly, the resistance effect of pyramiding
+different Rgenes may not be a simple accumulation of resistance spectrum and improve-
+ment in the resistance level; meanwhile, with the increase in the number of pyramided R
+genes via traditional genetics approaches, the workload of breeding, time consumption,
+and linkage drag with unacceptable traits increase. Therefore, an accurate understanding of
+Rgene utilization and the establishment of high-throughput molecular breeding methods
+to create Rgenes harboring resistant germplasms without linkage drag are important steps
+to overcome these difﬁcult points, so as to improve broad-spectrum resistance breeding in
+the future.
+3.2. Engineering Broad-Spectrum Disease Resistance Rice by Editing Susceptibility and Executor
+R Genes Is a New Method with Broad Application Prospects
+During the plant–pathogen interaction, phytopathogens evolve to exploit the sus-
+ceptibility (S) genes of plant to facilitate their infection. These Sgenes are associated
+with host recognition, penetration, pathogen proliferation and spread, or negative regu-
+lation of immune signals [ 113]. Disrupting these Sgenes can lead to enhanced resistance
+or reduced compatibility and, consequently, expand resources for broad-spectrum dis-
+ease resistance. To date, many Sgenes have been identiﬁed in rice, such as Pi21 ,Xa5,
+Xa13/OsSWEET11 ,Xa25/OsSWEET13 , and Xa41 /OsSWEET14 [29,114–121]. Recent ad-
+vances in genome editing technologies, such as the CRISPR (clustered regularly inter-
+spaced short palindromic repeats)/Cas9 (CRISPR-associated protein 9)-mediated gene
+editing system, have greatly accelerated the generation of new resistant rice through genetic
+manipulation of Sgenes [113,122].
+The most reported examples of editing Sgenes in rice can be found in research related
+toXooresistance. During the infection process of Xoo, abundant transcription activator-like
+effectors (TALEs), which are the major virulence factors and compatibility determinants,
+are secreted into rice cells. Most TALEs bind to the cis-element effector-binding elements
+(EBEs ) in the promoter of Sgene and reprogram their transcription to promote disease.Int. J. Mol. Sci. 2021 ,22, 11658 10 of 17
+For instance, the TALEs PthXo1, PthXo2, and PthXo3/ AvrXa7 /TalC/TalF bind the EBEs
+in the promoters of rice OsSWEET11 ,OsSWEET13 , and OsSWEET14 genes, respectively
+(Figure 2a) [ 122]. Editing the EBEs ofSgenes OsSWEET11 ,OsSWEET13 , and OsSWEET14
+in rice varieties japonica Kitaake and indica IR64 and Ciherang-sub1 resulted in loss of
+induction of these Sgenes by Xoo and broad-spectrum resistance against Xoo [123–126].
+Similar strategies were used in the modiﬁcation of Sgenes, Pi21 ,Bsr-d1 , and Xa5 to obtain
+broad-spectrum resistance rice against Xoo and M. oryzae [127]. In addition, it was well
+summarized that editing the open reading frame of susceptibility defense regulators could
+obtain broad-spectrum resistance rice plants in the Wang’s review (Figure 2b) [128].
+Contrary to the interaction between TALEs and rice Sgenes, the usually suppressed
+executor Rgenes, such as Xa10 and Xa23 , are transcriptionally activated by TALEs to restrict
+the growth of Xoo[28]. Using an in-depth understanding of the mechanism underlying the
+interaction between TALEs and executor Rgenes, a new strategy for engineering broad-
+spectrum bacterial blight resistance through CRISPR/Cas9-mediated precise homology
+directed repair was proposed. Using this strategy, the EBE AvrXa23 , which is bound by
+TALE AvrXa23 to activate the expression of Xa23 , was inserted into the promoter region of
+the susceptible xa23 allele in the susceptible rice cultivar, resulting in a resistant variety
+(Figure 2c) [129]. This is a signiﬁcant expansion to the application of executor Rgenes and
+a new genome editing strategy in improving rice disease resistance.
+Int. J. Mol. Sci. 2021 , 22, x FOR PEER REVIEW 11 of 18 
+ 
+ EBEs  in the promoters of rice OsSWEET11 , OsSWEET13 , and OsSWEET14  genes, respec-
+tively (Figure 2a) [122]. Editing the EBEs of S genes OsSWEET11 , OsSWEET13 , and 
+OsSWEET14  in rice varieties japonica Kitaake and indica IR64 and Ciherang-sub1 resulted 
+in loss of induction of these S genes by Xoo and broad-spectrum resistance against Xoo 
+[123–126]. Similar strategies were used in the modification of S genes, Pi21 , Bsr-d1 , and 
+Xa5 to obtain broad-spectrum resistance rice against Xoo and M. oryzae  [127]. In addition, 
+it was well summarized that editing the open reading frame of susceptibility defense regu-
+lators  could obtain broad-spectrum resistance rice  plants in the Wang’s review (Figure 2b) 
+[128].  
+Contrary to the interaction between TALEs and rice S genes, the usually suppressed 
+executor R genes, such as Xa10  and Xa23 , are transcriptionally activated by TALEs to re-
+strict the growth of Xoo [28]. Using an in-depth unders tanding of the mechanism under-
+lying the interaction between TALEs and executor R genes, a new strategy for engineering 
+broad-spectrum bacterial blight resistance  through CRISPR/Cas9-mediated precise ho-
+mology directed repair was proposed. Using this strategy, the EBE AvrXa23 , which is bound 
+by TALE AvrXa23 to activate the expression of Xa23 , was inserted into the promoter re-
+gion of the susceptible xa23  allele in the susceptible rice cultivar, resulting in a resistant 
+variety (Figure 2c) [129]. This is a significant expansion to the application of executor R 
+genes and a new genome editing strategy in improving rice disease resistance.  
+ 
+Figure 2. Engineering broad-spectrum disease-resistant ri ce by editing susceptibility and executor R genes. ( a) Editing the 
+EBEs  (effector-binding elements) of S genes OsSWEET11 , OsSWEET13 , and OsSWEET14 ; (b) disruption of S genes; ( c) 
+editing the EBEs  of executor R gene by CRISPR/Cas9-mediated precise homology directed repair.  
+3.3. Transgenic Rice Expressing Genes from  Other Species Shows Broad-Spectrum Disease 
+Resistance 
+Along with pyramiding resistance genes and editing susceptibility genes in rice, de-
+velopment of transgenic rice plants by expressing defense genes from other species is an appropriate approach to control pathogens,  especial in the absence of a resistant 
+germplasm. For instance, the Arabidopsis  NPR1 protein (non-expressor of PR1) is a key 
+regulator in the signal transduction pathway leading to the activation of SAR, which is a 
+broad-spectrum resistance response upon expo sure to a pathogen [130]. Constitutive ex-
+pression of the AtNPR1  gene in rice leads to high resistance but growth and agronomic 
+Figure 2. Engineering broad-spectrum disease-resistant rice by editing susceptibility and executor Rgenes. ( a) Editing
+theEBEs (effector-binding elements) of Sgenes OsSWEET11 ,OsSWEET13 , and OsSWEET14 ; (b) disruption of Sgenes; ( c)
+editing the EBEs of executor Rgene by CRISPR/Cas9-mediated precise homology directed repair.
+3.3. Transgenic Rice Expressing Genes from Other Species Shows Broad-Spectrum
+Disease Resistance
+Along with pyramiding resistance genes and editing susceptibility genes in rice, de-
+velopment of transgenic rice plants by expressing defense genes from other species is an
+appropriate approach to control pathogens, especial in the absence of a resistant germplasm.
+For instance, the Arabidopsis NPR1 protein (non-expressor of PR1) is a key regulator in the
+signal transduction pathway leading to the activation of SAR, which is a broad-spectrum
+resistance response upon exposure to a pathogen [ 130]. Constitutive expression of the
+AtNPR1 gene in rice leads to high resistance but growth and agronomic trait defects.Int. J. Mol. Sci. 2021 ,22, 11658 11 of 17
+To overcome this problem, different strategies were developed by two groups [ 130,131].
+Eventually, broad-spectrum resistant rice plants without a ﬁtness cost were obtained by
+expression of AtNPR1 driven by green tissue-speciﬁc promoter or pathogen-responsive
+upstream open reading frames of key immune regulators TBF1 [ 130,131]. Similarly, trans-
+genic rice lines expressing the auto-activated NLR genes RPS2 and RPM1 (D505V) from
+Arabidopsis conferred broad-spectrum resistance to pathogens M. oryzae and Xoovia early
+and strong induction of ROS, callose deposition, and expression of defense-related genes.
+These RPS2 and RPM1 cases revealed that auto-activated NLRs are a promising resource
+for breeding crops with broad-spectrum resistance, and they provide new insights for engi-
+neering disease resistance [ 132]. In addition to genes from Arabidopsis , transgenic rice plants
+expressing resistant Lr34 allele from wheat showed increased resistance against multiple
+isolates of the hemibiotrophic pathogen M. oryzae by delaying invasive hyphal growth [ 133].
+In another example, transgenic rice lines expressing the isoﬂavone synthase (GmIFS1) gene
+from soybean contributed to the synthesis of isoﬂavone (genistein) to promote M. oryzae
+resistance, indicating that the synthesis of heterologous secondary metabolites, such as
+isoﬂavone, is a good way to develop blast resistance in rice [ 134]. As such, we believe that
+engineering resistant rice through ectopic transcription of defense genes cloud be a broadly
+applicable new strategy, which may lead to reduced use of pesticides and lightening the
+selection pressure of resistance pathogens.
+4. Conclusions
+In the past 10 years, several broad-spectrum Rgenes, defense regulators, and QTLs
+were identiﬁed in rice with resistance against two or more types of pathogen species
+or many isolates of the same pathogen species. This emerging knowledge of broad-
+spectrum resistance genes formulates efﬁcient ways to best use these genetic resources for
+crop improvement via biotechnological approaches. However, there are still many gaps
+in our knowledge of the mechanisms underlying broad-spectrum resistance. To reveal
+these mechanisms, more research about the interactions between the host R protein and
+pathogen effectors, as well as the cooperation among these broad-spectrum resistance
+genes, is required in future. Furthermore, there is still a long way to using these genes to
+create broad-spectrum disease-resistant varieties. An accurate understanding of Rgene
+utilization, the establishment of high-throughput molecular breeding methods to create R
+genes harboring resistant germplasms without linkage drag, and an investigation of new
+strategies for using defense regulator genes without a yield penalty will be helpful for
+improving broad-spectrum resistance breeding in the future.
+Funding: This research was supported in part by the Natural Science Foundation of China
+(32000103 to Y.K.) and the key R&D project of China National Rice Research Institute, grant number
+“CNRRI-2020-04”.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Acknowledgments: This project was also supported by the Chinese Academy of Agricultural Sci-
+ences under the “Elite Youth” program and the Agricultural Sciences and Technologies Innovation
+Program. We thank the Rice–Pathogen Interaction group of China National Rice Research Institute
+for helpful discussion and suggestions.
+Conﬂicts of Interest: The authors declare no conﬂict of interest. The funders had no role in the design
+of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, or
+in the decision to publish the results.
+References
+1. Kou, Y.; Wang, S. Broad-spectrum and durability: Understanding of quantitative disease resistance. Curr. Opin. Plant Biol. 2010 ,
+13, 181–185. [CrossRef]
+2. Li, W.; Chern, M.; Yin, J.; Wang, J.; Chen, X. Recent advances in broad-spectrum resistance to the rice blast disease. Curr. Opin.
+Plant Biol. 2019 ,50, 114–120. [CrossRef]Int. J. Mol. Sci. 2021 ,22, 11658 12 of 17
+3. Peng, Y.; Yang, J.; Li, X.; Zhang, Y. Salicylic acid: Biosynthesis and signaling. Annu. Rev. Plant Biol. 2021 ,72, 761–791. [CrossRef]
+4. Das, A.; Soubam, D.; Singh, P .K.; Thakur, S.; Singh, N.K.; Sharma, T.R. A novel blast resistance gene, Pi54rh cloned from wild
+species of rice, Oryza rhizomatis confers broad spectrum resistance to Magnaporthe oryzae. Funct. Integr. Genom. 2012 ,12, 215–228.
+[CrossRef]
+5. Liu, Y.; Liu, B.; Zhu, X.; Yang, J.; Bordeos, A.; Wang, G.; Leach, J.E.; Leung, H. Fine-mapping and molecular marker development
+forPi56(t) , a NBS-LRR gene conferring broad-spectrum resistance to Magnaporthe oryzae in rice. Theor. Appl. Genet. 2013 ,126,
+985–998. [CrossRef] [PubMed]
+6. Ma, J.; Lei, C.; Xu, X.; Hao, K.; Wang, J.; Cheng, Z.; Ma, X.; Ma, J.; Zhou, K.; Zhang, X.; et al. Pi64 , encoding a novel CC-NBS-LRR
+protein, confers resistance to leaf and neck blast in rice. Mol. Plant-Microbe Interact. 2015 ,28, 558–568. [CrossRef]
+7. Deng, Y.; Zhai, K.; Xie, Z.; Yang, D.; Zhu, X.; Liu, J.; Wang, X.; Qin, P .; Yang, Y.; Zhang, G. Epigenetic regulation of antagonistic
+receptors confers rice blast resistance with yield balance. Science 2017 ,355, 962–965. [CrossRef]
+8. Xie, Z.; Yan, B.; Shou, J.; Tang, J.; Wang, X.; Zhai, K.; Liu, J.; Li, Q.; Luo, M.; Deng, Y.; et al. A nucleotide-binding site-leucine-rich
+repeat receptor pair confers broad-spectrum disease resistance through physical association in rice. Philos. Trans. R. Soc. B Biol.
+Sci.2019 ,374, 20180308. [CrossRef]
+9. Zhao, H.; Wang, X.; Jia, Y.; Minkenberg, B.; Wheatley, M.; Fan, J.; Jia, M.H.; Famoso, A.; Edwards, J.D.; Wamishe, Y.; et al. The rice
+blast resistance gene Ptrencodes an atypical protein required for broad-spectrum disease resistance. Nat. Commun. 2018 ,9, 2039.
+[CrossRef] [PubMed]
+10. Meng, X.; Xiao, G.; Telebanco-Yanoria, M.J.; Siazon, P .M.; Padilla, J.; Opulencia, R.; Bigirimana, J.; Habarugira, G.; Wu, J.; Li, M.;
+et al. The broad-spectrum rice blast resistance ( R) gene Pita2 encodes a novel Rprotein unique from Pita. Rice 2020 ,13, 1–15.
+[CrossRef] [PubMed]
+11. Vasudevan, K.; Vera Cruz, C.M.; Gruissem, W.; Bhullar, N.K. Geographically distinct and domain-speciﬁc sequence variations in
+the alleles of rice blast resistance gene Pib.Front. Plant Sci. 2016 ,7, 915. [CrossRef]
+12. Roychowdhury, M.; Jia, Y.; Jia, M.H.; Fjellstrom, R.; Cartwright, R.D. Identiﬁcation of the rice blast resistance gene Pibin the
+national small grains collection. Phytopathology 2012 ,102, 700–706. [CrossRef] [PubMed]
+13. Hua, L.; Wu, J.; Chen, C.; Wu, W.; He, X.; Lin, F.; Wang, L.; Ashikawa, I.; Matsumoto, T.; Wang, L.; et al. The isolation of Pi1, an
+allele at the Piklocus which confers broad spectrum resistance to rice blast. Theor. Appl. Genet. 2012 ,125, 1047–1055. [CrossRef]
+14. Thakur, S.; Singh, P .K.; Das, A.; Rathour, R.; Variar, M.; Prashanthi, S.K.; Singh, A.K.; Singh, U.D.; Chand, D.; Singh, N.K.; et al.
+Extensive sequence variation in rice blast resistance gene Pi54 makes it broad spectrum in nature. Front. Plant Sci. 2015 ,6, 345.
+[CrossRef] [PubMed]
+15. Meng, F.; He, Y.; Chen, J.; Long, X.; Wang, H.; Zhu, M.; Liu, S.; Cai, Q.; Zhang, Z. Analysis of natural variation of the rice blast
+resistance gene Pike and identiﬁcation of a novel allele Pikg.Mol. Genet. Genom. 2021 ,296, 939–952. [CrossRef] [PubMed]
+16. Liang, T.; Chi, W.; Huang, L.; Qu, M.; Zhang, S.; Chen, Z.Q.; Chen, Z.J.; Tian, D.; Gui, Y.; Chen, X.; et al. Bulked segregant analysis
+coupled with whole-genome sequencing (BSA-seq) mapping identiﬁes a novel pi21 haplotype conferring basal resistance to rice
+blast disease. Int. J. Mol. Sci. 2020 ,21, 2162. [CrossRef]
+17. Feng, X.; Lin, K.; Zhang, W.; Nan, J.; Zhang, X.; Wang, C.; Wang, R.; Jiang, G.; Yuan, Q.; Lin, S. Improving the blast resistance of
+the elite rice variety Kongyu-131 by updating the pi21 locus. BMC Plant Biol. 2019 ,19, 1–12. [CrossRef]
+18. Zhou, Y.; Lei, F.; Wang, Q.; He, W.; Yuan, B.; Yuan, W. Identiﬁcation of novel alleles of the rice blast-resistance gene Pi9through
+sequence-based allele mining. Rice 2020 ,13, 1–12. [CrossRef]
+19. Xiao, G.; Borja, F.N.; Mauleon, R.; Padilla, J.; Telebanco-Yanoria, M.J.; Yang, J.; Lu, G.; Dionisio-Sese, M.; Zhou, B. Identiﬁcation of
+resistant germplasm containing novel resistance genes at or tightly linked to the Pi2/9 locus conferring broad-spectrum resistance
+against rice blast. Rice 2017 ,10, 1–12. [CrossRef]
+20. Tian, D.; Chen, Z.; Chen, Z.; Zhou, Y.; Wang, Z.; Wang, F.; Chen, S. Allele-speciﬁc marker-based assessment revealed that the rice
+blast resistance genes Pi2and Pi9have not been widely deployed in Chinese indica rice cultivars. Rice 2016 ,9, 1–11. [CrossRef]
+21. Imam, J.; Mandal, N.P .; Variar, M.; Shukla, P . Allele mining and selective patterns of Pi9gene in a set of rice landraces from india.
+Front. Plant Sci. 2016 ,7, 1846. [CrossRef]
+22. Su, J.; Wang, W.; Han, J.; Chen, S.; Wang, C.; Zeng, L.; Feng, A.; Yang, J.; Zhou, B.; Zhu, X. Functional divergence of duplicated
+genes results in a novel blast resistance gene Pi50 at the Pi2/9 locus. Theor. Appl. Genet. 2015 ,128, 2213–2225. [CrossRef]
+23. Wu, Y.Y.; Bao, Y.M.; Xie, L.J.; Su, Y.Y.; Chu, R.Z.; He, W.W.; Huang, J.; Wang, J.F.; Zhang, H.S. Fine mapping and identiﬁcation of
+blast resistance gene Pi-hk1 in a broad-spectrum resistant japonica rice landrace. Phytopathology 2013 ,103, 1162–1168. [CrossRef]
+24. Dong, L.; Liu, S.; Xu, P .; Deng, W.; Li, X.; Tharreau, D.; Li, J.; Zhou, J.; Wang, Q.; Tao, D.; et al. Fine mapping of Pi57(t) conferring
+broad spectrum resistance against Magnaporthe oryzae in introgression line IL-E1454 derived from Oryza longistaminata. PLoS
+ONE 2017 ,12, e0186201. [CrossRef] [PubMed]
+25. Zheng, W.; Wang, Y.; Wang, L.; Ma, Z.; Zhao, J.; Wang, P .; Zhang, L.; Liu, Z.; Lu, X. Genetic mapping and molecular marker
+development for Pi65(t) , a novel broad-spectrum resistance gene to rice blast using next-generation sequencing. Theor. Appl.
+Genet. 2016 ,129, 1035–1044. [CrossRef]
+26. Dong, L.; Liu, S.; Kyaing, M.S.; Xu, P .; Tharreau, D.; Deng, W.; Li, X.; Bi, Y.; Zeng, L.; Li, J.; et al. Identiﬁcation and ﬁne mapping of
+Pi69(t) , a new gene conferring broad-spectrum resistance against Magnaporthe oryzae from Oryza glaberrima steud. Front. Plant Sci.
+2020 ,11, 1190. [CrossRef] [PubMed]Int. J. Mol. Sci. 2021 ,22, 11658 13 of 17
+27. Chen, X.; Liu, P .; Mei, L.; He, X.; Chen, L.; Liu, H.; Shen, S.; Ji, Z.; Zheng, X.; Zhang, Y.; et al. Xa7, a new executor Rgene that
+confers durable and broad-spectrum resistance to bacterial blight disease in rice. Plant Commun. 2021 ,2, 100143. [CrossRef]
+28. Wang, C.; Zhang, X.; Fan, Y.; Gao, Y.; Zhu, Q.; Zheng, C.; Qin, T.; Li, Y.; Che, J.; Zhang, M.; et al. XA23 is an executor R protein and
+confers broad-spectrum disease resistance in rice. Mol. Plant 2015 ,8, 290–302. [CrossRef] [PubMed]
+29. Hutin, M.; Sabot, F.; Ghesquiere, A.; Koebnik, R.; Szurek, B. A knowledge-based molecular screen uncovers a broad-spectrum
+OsSWEET14 resistance allele to bacterial blight from wild rice. Plant J. 2015 ,84, 694–703. [CrossRef] [PubMed]
+30. Xing, J.; Zhang, D.; Yin, F.; Zhong, Q.; Wang, B.; Xiao, S.; Ke, X.; Wang, L.; Zhang, Y.; Zhao, C.; et al. Identiﬁcation and
+ﬁne-mapping of a new bacterial blight resistance gene, Xa47(t) , in G252, an introgression line of yuanjiang common wild rice
+(Oryza ruﬁpogon ).Plant Dis. 2021 . [CrossRef]
+31. Du, D.; Zhang, C.; Xing, Y.; Lu, X.; Cai, L.; Yun, H.; Zhang, Q.; Zhang, Y.; Chen, X.; Liu, M.; et al. The CC-NB-LRR OsRLR1
+mediates rice disease resistance through interaction with OsWRKY19. Plant Biotechnol. J. 2021 ,19, 1052–1064. [CrossRef]
+32. Li, D.; Li, S.; Wei, S.; Sun, W. Strategies to manage rice sheath blight: Lessons from interactions between rice and Rhizoctonia solani .
+Rice 2021 ,14, 1–15. [CrossRef] [PubMed]
+33. Sun, W.; Fan, J.; Fang, A.; Li, Y.; Tariqjaveed, M.; Li, D.; Hu, D.; Wang, W.M. Ustilaginoidea virens : Insights into an emerging rice
+pathogen. Annu. Rev. Phytopathol. 2020 ,58, 363–385. [CrossRef]
+34. Wang, Q.; Liu, Y.; He, J.; Zheng, X.; Hu, J.; Liu, Y.; Dai, H.; Zhang, Y.; Wang, B.; Wu, W.; et al. STV11 encodes a sulphotransferase
+and confers durable resistance to rice stripe virus. Nat. Commun. 2014 ,5, 4768. [CrossRef]
+35. Wu, J.; Kou, Y.; Bao, J.; Li, Y.; Tang, M.; Zhu, X.; Ponaya, A.; Xiao, G.; Li, J.; Li, C.; et al. Comparative genomics identiﬁes the
+Magnaporthe oryzae avirulence effector AvrPi9 that triggers Pi9-mediated blast resistance in rice. New Phytol. 2015 ,206, 1463–1475.
+[CrossRef] [PubMed]
+36. Zhu, Z.; Yin, J.; Chern, M.; Zhu, X.; Yang, C.; He, K.; Liu, Y.; He, M.; Wang, J.; Song, L.; et al. New insights into bsr-d1 -mediated
+broad-spectrum resistance to rice blast. Mol. Plant Pathol. 2020 ,21, 951–960. [CrossRef]
+37. Li, W.; Zhu, Z.; Chern, M.; Yin, J.; Yang, C.; Ran, L.; Cheng, M.; He, M.; Wang, K.; Wang, J.; et al. A natural allele of a transcription
+factor in rice confers broad-spectrum blast resistance. Cell2017 ,170, 114–126. [CrossRef] [PubMed]
+38. Li, W.T.; Wang, K.; Chern, M.; Liu, Y.C.; Zhu, Z.W.; Liu, J.; Zhu, X.B.; Yin, J.J.; Ran, L.; Xiong, J.; et al. Sclerenchyma cell thickening
+through enhanced ligniﬁcation induced by OsMYB30 prevents fungal penetration of rice leaves. New Phytol. 2020 ,226, 1850–1863.
+[CrossRef] [PubMed]
+39. Wang, Z.; Xia, Y.; Lin, S.; Wang, Y.; Guo, B.; Song, X.; Ding, S.; Zheng, L.; Feng, R.; Chen, S.; et al. Osa-miR164a targets OsNAC60
+and negatively regulates rice immunity against the blast fungus Magnaporthe oryzae .Plant J. 2018 ,95, 584–597. [CrossRef]
+40. Inoue, H.; Hayashi, N.; Matsushita, A.; Xinqiong, L.; Nakayama, A.; Sugano, S.; Jiang, C.J.; Takatsuji, H. Blast resistance of
+CC-NB-LRR protein Pb1 is mediated by WRKY45 through protein-protein interaction. Proc. Natl. Acad. Sci. USA 2013 ,110,
+9577–9582. [CrossRef]
+41. Zhai, K.R.; Deng, Y.W.; Liang, D.; Tang, J.; Liu, J.; Yan, B.X.; Yin, X.; Lin, H.; Chen, F.D.; Yang, D.Y.; et al. RRM transcription factors
+Interact with NLRs and regulate broad-spectrum blast resistance in rice. Mol. Cell 2019 ,74, 996–1009.e7. [CrossRef]
+42. Li, W.; Zhong, S.; Li, G.; Li, Q.; Mao, B.; Deng, Y.; Zhang, H.; Zeng, L.; Song, F.; He, Z. Rice RING protein OsBBI1 with E3 ligase
+activity confers broad-spectrum resistance against Magnaporthe oryzae by modifying the cell wall defence. Cell Res. 2011 ,21,
+835–848. [CrossRef]
+43. Liu, M.X.; Zhang, S.B.; Hu, J.X.; Sun, W.X.; Padilla, J.; He, Y.L.; Li, Y.; Yin, Z.Y.; Liu, X.Y.; Wang, W.H.; et al. Phosphorylation-
+guarded light-harvesting complex II contributes to broad-spectrum blast resistance in rice. Proc. Natl. Acad. Sci. USA 2019 ,116,
+17572–17577. [CrossRef] [PubMed]
+44. Jiang, Y.; Chen, X.; Ding, X.; Wang, Y.; Chen, Q.; Song, W.Y. The XA21 binding protein XB25 is required for maintaining
+XA21-mediated disease resistance. Plant J. 2013 ,73, 814–823. [CrossRef]
+45. Park, C.-J.; Song, M.-Y.; Kim, C.-Y.; Jeon, J.-S.; Ronald, P .C. Rice bip3 regulates immunity mediated by the PRRs XA3 and XA21
+but not immunity mediated by the NB-LRR protein, Pi5. Biochem. Biophys. Res. Commun. 2014 ,448, 70–75. [CrossRef]
+46. Feng, J.X.; Cao, L.; Li, J.; Duan, C.J.; Luo, X.M.; Le, N.; Wei, H.H.; Liang, S.J.; Chu, C.C.; Pan, Q.H.; et al. Involvement of
+OsNPR1/NH1 in rice basal resistance to blast fungus Magnaporthe oryzae .Eur. J. Plant Pathol. 2011 ,131, 221–235. [CrossRef]
+47. Chern, M.; Xu, Q.; Bart, R.S.; Bai, W.; Ruan, D.; Sze-To, W.H.; Canlas, P .E.; Jain, R.; Chen, X.; Ronald, P .C. A genetic screen
+identiﬁes a requirement for cysteine-rich-receptor-like kinases in rice NH1 (OsNPR1)-mediated immunity. PLoS Genet. 2016 ,12,
+e1006049. [CrossRef]
+48. He, S.L.; Jiang, J.Z.; Chen, B.H.; Kuo, C.H.; Ho, S.L. Overexpression of a constitutively active truncated form of OsCDPK1 confers
+disease resistance by affecting OsPR10a expression in rice. Sci. Rep. 2018 ,8, 403. [CrossRef] [PubMed]
+49. Chen, J.; Wang, L.; Yang, Z.; Liu, H.; Chu, C.; Zhang, Z.; Zhang, Q.; Li, X.; Xiao, J.; Wang, S.; et al. The rice Raf-like MAPKKK
+OsILA1 confers broad-spectrum resistance to bacterial blight by suppressing the OsMAPKK4-OsMAPK6 cascade. J. Integr. Plant
+Biol. 2021 ,63, 1815–1842. [CrossRef]
+50. Chen, H.; Li, C.; Liu, L.; Zhao, J.; Cheng, X.; Jiang, G.; Zhai, W. The Fd-GOGAT1 mutant gene lc7confers resistance to Xanthomonas
+oryzae pv. oryzae in rice. Sci. Rep. 2016 ,6, 1–13. [CrossRef] [PubMed]
+51. Liu, B.; Li, J.F.; Ao, Y.; Qu, J.W.; Li, Z.Q.; Su, J.B.; Zhang, Y.; Liu, J.; Feng, D.R.; Qi, K.B.; et al. Lysin motif-containing proteins
+LYP4 and LYP6 play dual roles in peptidoglycan and chitin perception in rice innate immunity. Plant Cell 2012 ,24, 3406–3419.
+[CrossRef]Int. J. Mol. Sci. 2021 ,22, 11658 14 of 17
+52. Vo, K.T.X.; Kim, C.Y.; Hoang, T.V .; Lee, S.K.; Shirsekar, G.; Seo, Y.S.; Lee, S.W.; Wang, G.L.; Jeon, J.S. OsWRKY67 plays a positive
+role in basal and XA21-mediated resistance in rice. Front. Plant Sci. 2017 ,8, 2220. [CrossRef]
+53. Liu, M.M.; Shi, Z.Y.; Zhang, X.H.; Wang, M.X.; Zhang, L.; Zheng, K.Z.; Liu, J.Y.; Hu, X.M.; Di, C.R.; Qian, Q.; et al. Inducible
+overexpression of Ideal Plant Architecture1 improves both yield and disease resistance in rice. Nat. Plants 2019 ,5, 902. [CrossRef]
+[PubMed]
+54. Wang, J.; Zhou, L.; Shi, H.; Chern, M.; Yu, H.; Yi, H.; He, M.; Yin, J.J.; Zhu, X.B.; Li, Y.; et al. A single transcription factor promotes
+both yield and immunity in rice. Science 2018 ,361, 1026–1028. [CrossRef] [PubMed]
+55. Hui, S.; Liu, H.; Zhang, M.; Chen, D.; Li, Q.; Tian, J.; Xiao, J.; Li, X.; Wang, S.; Yuan, M. The host basal transcription factor IIA
+subunits coordinate for facilitating infection of TALEs-carrying bacterial pathogens in rice. Plant Sci. 2019 ,284, 48–56. [CrossRef]
+56. Liu, Q.; Yang, J.; Yan, S.; Zhang, S.; Zhao, J.; Wang, W.; Yang, T.; Wang, X.; Mao, X.; Dong, J.; et al. The germin-like protein
+OsGLP2-1 enhances resistance to fungal blast and bacterial blight in rice. Plant Mol. Biol. 2016 ,92, 411–423. [CrossRef]
+57. Filipe, O.; De Vleesschauwer, D.; Haeck, A.; Demeestere, K.; Hofte, M. The energy sensor OsSnRK1a confers broad-spectrum
+disease resistance in rice. Sci. Rep. 2018 ,8, 3864. [CrossRef]
+58. Kim, C.-Y.; Vo, K.T.X.; An, G.; Jeon, J.-S. A rice sucrose non-fermenting-1 related protein kinase 1, OSK35 , plays an important role
+in fungal and bacterial disease resistance. J. Korean Soc. Appl. Biol. Chem. 2015 ,58, 669–675. [CrossRef]
+59. Wang, J.; Wang, S.; Hu, K.; Yang, J.; Xin, X.; Zhou, W.; Fan, J.; Cui, F.; Mou, B.; Zhang, S.; et al. The calcium-dependent protein
+kinase OsCPK4 regulates a buffering mechanism that ﬁne-tunes innate immunity in rice. Phytopathology 2018 ,108, 35.
+60. Kanda, Y.; Nishizawa, Y.; Kamakura, T.; Mori, M. Overexpressed BSR1 -mediated enhancement of disease resistance depends on
+the MAMP-recognition system. Int. J. Mol. Sci. 2020 ,21, 5397. [CrossRef]
+61. You, Q.; Zhai, K.; Yang, D.; Yang, W.; Wu, J.; Liu, J.; Pan, W.; Wang, J.; Zhu, X.; Jian, Y.; et al. An E3 ubiquitin ligase-bag protein
+module controls plant innate immunity and broad-spectrum disease resistance. Cell Host Microbe 2016 ,20, 758–769. [CrossRef]
+62. Liu, J.; Park, C.H.; He, F.; Nagano, M.; Wang, M.; Bellizzi, M.; Zhang, K.; Zeng, X.; Liu, W.; Ning, Y.; et al. The RhoGAP SPIN6
+associates with SPL11 and OsRac1 and negatively regulates programmed cell death and innate immunity in rice. PLoS Pathog.
+2015 ,11, e1004629. [CrossRef]
+63. Harkenrider, M.; Sharma, R.; De Vleesschauwer, D.; Tsao, L.; Zhang, X.T.; Chern, M.; Canlas, P .; Zuo, S.M.; Ronald, P .C.
+Overexpression of rice wall-associated kinase 25 ( OsWAK25 ) alters resistance to bacterial and fungal pathogens. PLoS ONE 2016 ,
+11, e0147310. [CrossRef]
+64. Liu, Q.E.; Ning, Y.S.; Zhang, Y.X.; Yu, N.; Zhao, C.D.; Zhan, X.D.; Wu, W.X.; Chen, D.B.; Wei, X.J.; Wang, G.L.; et al. OsCUL3a
+negatively regulates cell death and immunity by degrading OsNPR1 in rice. Plant Cell 2017 ,29, 345–359. [CrossRef]
+65. Li, Z.; Ding, B.; Zhou, X.; Wang, G.L. The rice dynamin-related protein OsDRP1E negatively regulates programmed cell death by
+controlling the release of cytochrome c from mitochondria. PLoS Pathog. 2017 ,13, e1006157. [CrossRef]
+66. Wang, S.; Lei, C.; Wang, J.; Ma, J.; Tang, S.; Wang, C.; Zhao, K.; Tian, P .; Zhang, H.; Qi, C.; et al. SPL33 , encoding an eEF1A-like
+protein, negatively regulates cell death and defense responses in rice. J. Exp. Bot. 2017 ,68, 899–913. [CrossRef]
+67. Zhao, J.; Liu, P .; Li, C.; Wang, Y.; Guo, L.; Jiang, G.; Zhai, W. LMM5.1 and LMM5.4 , two eukaryotic translation elongation factor
+1A-like gene family members, negatively affect cell death and disease resistance in rice. J. Genet. Genom. 2017 ,44, 107–118.
+[CrossRef]
+68. Qin, P .; Fan, S.; Deng, L.; Zhong, G.; Zhang, S.; Li, M.; Chen, W.; Wang, G.; Tu, B.; Wang, Y.; et al. LML1, encoding a conserved
+eukaryotic release factor 1 protein, regulates cell death and pathogen resistance by forming a conserved complex with SPL33 in
+rice. Plant Cell Physiol. 2018 ,59, 887–902. [CrossRef]
+69. Liao, Y.; Bai, Q.; Xu, P .; Wu, T.; Guo, D.; Peng, Y.; Zhang, H.; Deng, X.; Chen, X.; Luo, M.; et al. Mutation in rice abscisic acid2 results
+in cell death, enhanced disease-resistance, altered seed dormancy and development. Front. Plant Sci. 2018 ,9, 405. [CrossRef]
+70. Ma, J.; Wang, Y.; Ma, X.; Meng, L.; Jing, R.; Wang, F.; Wang, S.; Cheng, Z.; Zhang, X.; Jiang, L.; et al. Disruption of gene SPL35 ,
+encoding a novel CUE domain-containing protein, leads to cell death and enhanced disease response in rice. Plant Biotechnol. J.
+2019 ,17, 1679–1693. [CrossRef]
+71. Ding, B.; Bellizzi Mdel, R.; Ning, Y.; Meyers, B.C.; Wang, G.L. HDT701, a histone H4 deacetylase, negatively regulates plant
+innate immunity by modulating histone H4 acetylation of defense-related genes in rice. Plant Cell 2012 ,24, 3783–3794. [CrossRef]
+[PubMed]
+72. Hong, Y.; Liu, Q.; Cao, Y.; Zhang, Y.; Chen, D.; Lou, X.; Cheng, S.; Cao, L. The Osmpk15 negatively regulates Magnaporthe oryza
+and Xoodisease resistance via SA and JA signaling pathway in rice. Front. Plant Sci. 2019 ,10, 752. [CrossRef] [PubMed]
+73. Zhou, X.; Liao, H.; Chern, M.; Yin, J.; Chen, Y.; Wang, J.; Zhu, X.; Chen, Z.; Yuan, C.; Zhao, W.; et al. Loss of function of a rice
+TPR-domain RNA-binding protein confers broad-spectrum disease resistance. Proc. Natl. Acad. Sci. USA 2018 ,115, 3174–3179.
+[CrossRef]
+74. Ke, Y.; Yuan, M.; Liu, H.; Hui, S.; Qin, X.; Chen, J.; Zhang, Q.; Li, X.; Xiao, J.; Zhang, Q.; et al. The versatile functions of
+OsALDH2B1 provide a genic basis for growth-defense trade-offs in rice. Proc. Natl. Acad. Sci. USA 2020 ,117, 3867–3873.
+[CrossRef] [PubMed]
+75. Tonnessen, B.W.; Manosalva, P .; Lang, J.M.; Baraoidan, M.; Bordeos, A.; Mauleon, R.; Oard, J.; Hulbert, S.; Leung, H.; Leach, J.E.
+Rice phenylalanine ammonia-lyase gene OsP AL4 is associated with broad spectrum disease resistance. Plant Mol. Biol. 2015 ,87,
+273–286. [CrossRef]Int. J. Mol. Sci. 2021 ,22, 11658 15 of 17
+76. Yang, W.; Ju, Y.; Zuo, L.; Shang, L.; Li, X.; Li, X.; Feng, S.; Ding, X.; Chu, Z. OsHsfB4d binds the promoter and regulates the
+expression of oshsp18.0-ci to resistant against Xanthomonas oryzae .Rice 2020 ,13, 28. [CrossRef]
+77. Ju, Y.; Tian, H.; Zhang, R.; Zuo, L.; Jin, G.; Xu, Q.; Ding, X.; Li, X.; Chu, Z. Overexpression of OsHSP18.0-CI enhances resistance to
+bacterial leaf streak in rice. Rice 2017 ,10, 12. [CrossRef]
+78. Ke, Y.; Liu, H.; Li, X.; Xiao, J.; Wang, S. Rice OsP AD4 functions differently from Arabidopsis AtP AD4 in host-pathogen interactions.
+Plant J. 2014 ,78, 619–631. [CrossRef]
+79. Son, S.; Kim, H.; Lee, K.S.; Kim, S.; Park, S.R. Rice glutaredoxin GRXS15 confers broad-spectrum resistance to Xanthomonas oryzae
+pv. oryzae and Fusarium fujikuroi .Biochem. Biophys. Res. Commun. 2020 ,533, 1385–1392. [CrossRef]
+80. Son, S.; Moon, S.J.; Kim, H.; Lee, K.S.; Park, S.R. Identiﬁcation of a novel NPR1 homolog gene, OsNH5N16 , which contributes to
+broad-spectrum resistance in rice. Biochem. Biophys. Res. Commun. 2021 ,549, 200–206. [CrossRef]
+81. Li, N.; Wei, S.; Chen, J.; Yang, F.; Kong, L.; Chen, C.; Ding, X.; Chu, Z. OsASR2 regulates the expression of a defence-related gene,
+Os2H16 , by targeting the GT-1 cis-element .Plant Biotechnol. J. 2018 ,16, 771–783. [CrossRef]
+82. Li, N.; Kong, L.; Zhou, W.; Zhang, X.; Wei, S.; Ding, X.; Chu, Z. Overexpression of Os2H16 enhances resistance to phytopathogens
+and tolerance to drought stress in rice. Plant Cell Tissue Organ Cult. 2013 ,115, 429–441. [CrossRef]
+83. Manosalva, P .M.; Bruce, M.; Leach, J.E. Rice 14-3-3 protein (GF14e) negatively affects cell death and disease resistance. Plant J.
+2011 ,68, 777–787. [CrossRef] [PubMed]
+84. Peng, X.; Hu, Y.; Tang, X.; Zhou, P .; Deng, X.; Wang, H.; Guo, Z. Constitutive expression of rice WRKY30 gene increases the
+endogenous jasmonic acid accumulation, PRgene expression and resistance to fungal pathogens in rice. Planta 2012 ,236,
+1485–1498. [CrossRef]
+85. Helliwell, E.E.; Wang, Q.; Yang, Y. Transgenic rice with inducible ethylene production exhibits broad-spectrum disease resistance
+to the fungal pathogens Magnaporthe oryzae and Rhizoctonia solani .Plant Biotechnol. J. 2013 ,11, 33–42. [CrossRef]
+86. Hu, B.; Zhou, Y.; Zhou, Z.; Sun, B.; Zhou, F.; Yin, C.; Ma, W.; Chen, H.; Lin, Y. Repressed OsMESL expression triggers reactive
+oxygen species-mediated broad-spectrum disease resistance in rice. Plant Biotechnol. J. 2021 ,19, 1511–1522. [CrossRef]
+87. Yin, X.; Zou, B.; Hong, X.; Gao, M.; Yang, W.; Zhong, X.; He, Y.; Kuai, P .; Lou, Y.; Huang, J.; et al. Rice copine genes OsBON1 and
+OsBON3 function as suppressors of broad-spectrum disease resistance. Plant Biotechnol. J. 2018 ,16, 1476–1487. [CrossRef]
+88. Bossa-Castro, A.M.; Tekete, C.; Raghavan, C.; Delorean, E.E.; Dereeper, A.; Dagno, K.; Koita, O.; Mosquera, G.; Leung, H.; Verdier,
+V .; et al. Allelic variation for broad-spectrum resistance and susceptibility to bacterial pathogens identiﬁed in a rice MAGIC
+population. Plant Biotechnol. J. 2018 ,16, 1559–1568. [CrossRef]
+89. Shi, X.; Wang, J.; Bao, Y.; Li, P .; Xie, L.; Huang, J.; Zhang, H. Identiﬁcation of the quantitative trait loci in japonica rice landrace
+Heikezijing responsible for broad-spectrum resistance to rice blast. Phytopathology 2010 ,100, 822–829. [CrossRef]
+90. Liu, Y.; Qi, X.; Gealy, D.R.; Olsen, K.M.; Caicedo, A.L.; Jia, Y. QTL analysis for resistance to blast disease in U.S. weedy rice. Mol.
+Plant-Microbe Interact. 2015 ,28, 834–844. [CrossRef] [PubMed]
+91. Sattayachiti, W.; Wanchana, S.; Arikit, S.; Nubankoh, P .; Patarapuwadol, S.; Vanavichit, A.; Darwell, C.T.; Toojinda, T. Genome-
+wide association analysis identiﬁes resistance loci for bacterial leaf streak resistance in rice ( Oryza sativa L.).Plants 2020 ,9, 1673.
+[CrossRef]
+92. Korinsak, S.; Darwell, C.T.; Wanchana, S.; Praphaisal, L.; Korinsak, S.; Thunnom, B.; Patarapuwadol, S.; Toojinda, T. Identiﬁcation
+of bacterial blight resistance loci in rice ( Oryza sativa L.) against diverse Xoo thai strains by genome-wide association study. Plants
+2021 ,10, 518. [CrossRef] [PubMed]
+93. Kumar, I.S.; Nadarajah, K. A meta-analysis of quantitative trait loci associated with multiple disease resistance in rice ( Oryza
+sativa L.).Plants 2020 ,9, 1491. [CrossRef] [PubMed]
+94. Miah, G.; Raﬁi, M.Y.; Ismail, M.R.; Puteh, A.B.; Rahim, H.A.; Latif, M.A. Marker-assisted introgression of broad-spectrum blast
+resistance genes into the cultivated MR219 rice variety. J. Sci. Food Agric. 2017 ,97, 2810–2818. [CrossRef]
+95. Jiang, H.; Li, Z.; Liu, J.; Shen, Z.; Gao, G.; Zhang, Q.; He, Y. Development and evaluation of improved lines with broad-spectrum
+resistance to rice blast using nine resistance genes. Rice 2019 ,12, 29. [CrossRef]
+96. Jain, P .; Dubey, H.; Singh, P .K.; Solanke, A.U.; Singh, A.K.; Sharma, T.R. Deciphering signalling network in broad spectrum near
+isogenic lines of rice resistant to Magnaporthe oryzae .Sci. Rep. 2019 ,9, 16939. [CrossRef]
+97. Wu, Y.; Xiao, N.; Chen, Y.; Yu, L.; Pan, C.; Li, Y.; Zhang, X.; Huang, N.; Ji, H.; Dai, Z.; et al. Comprehensive evaluation of resistance
+effects of pyramiding lines with different broad-spectrum resistance genes against Magnaporthe oryzae in rice ( Oryza sativa L.).
+Rice 2019 ,12, 1–13. [CrossRef]
+98. Yang, D.; Tang, J.; Yang, D.; Chen, Y.; Ali, J.; Mou, T. Improving rice blast resistance of Feng39S through molecular marker-assisted
+backcrossing. Rice 2019 ,12, 1–16. [CrossRef] [PubMed]
+99. Wang, L.; Zhao, L.; Zhang, X.; Zhang, Q.; Jia, Y.; Wang, G.; Li, S.; Tian, D.; Li, W.H.; Yang, S. Large-scale identiﬁcation and
+functional analysis of NLR genes in blast resistance in the Tetep rice genome sequence. Proc. Natl. Acad. Sci. USA 2019 ,116,
+18479–18487. [CrossRef] [PubMed]
+100. Ramalingam, J.; Palanisamy, S.; Alagarasan, G.; Renganathan, V .G.; Ramanathan, A.; Saraswathi, R. Improvement of stable
+restorer lines for blast resistance through functional marker in rice ( Oryza sativa L.).Genes 2020 ,11, 1266. [CrossRef] [PubMed]
+101. Peng, M.; Lin, X.; Xiang, X.; Ren, H.; Fan, X.; Chen, K. Characterization and evaluation of transgenic rice pyramided with the Pi
+Genes Pib, Pi25 and Pi54. Rice 2021 ,14, 1–14. [CrossRef]Int. J. Mol. Sci. 2021 ,22, 11658 16 of 17
+102. Suh, J.P .; Jeung, J.U.; Noh, T.H.; Cho, Y.C.; Park, S.H.; Park, H.S.; Shin, M.S.; Kim, C.K.; Jena, K.K. Development of breeding lines
+with three pyramided resistance genes that confer broad-spectrum bacterial blight resistance and their molecular analysis in rice.
+Rice 2013 ,6, 1–11. [CrossRef]
+103. Pradhan, S.K.; Nayak, D.K.; Mohanty, S.; Behera, L.; Barik, S.R.; Pandit, E.; Lenka, S.; Anandan, A. Pyramiding of three bacterial
+blight resistance genes for broad-spectrum resistance in deepwater rice variety, Jalmagna. Rice 2015 ,8, 1–14. [CrossRef] [PubMed]
+104. Ramalingam, J.; Savitha, P .; Alagarasan, G.; Saraswathi, R.; Chandrababu, R. Functional marker assisted improvement of stable
+cytoplasmic male sterile lines of rice for bacterial blight resistance. Front. Plant Sci. 2017 ,8, 1131. [CrossRef]
+105. Gao, L.; Fang, Z.; Zhou, J.; Li, L.; Lu, L.; Li, L.; Li, T.; Chen, L.; Zhang, W.; Zhai, W.; et al. Transcriptional insights into the
+pyramided resistance to rice bacterial blight. Sci. Rep. 2018 ,8, 12358. [CrossRef] [PubMed]
+106. Ch, B.; Hk, M.S.; Sk, H.; Rr, K.; Mbvn, K.; Vp, B.; As, H.; Gs, L.; Sm, B.; Ms, M. Marker-assisted pyramiding of two major,
+broad-spectrum bacterial blight resistance genes, Xa21 and Xa33 into an elite maintainer line of rice, DRR17B. PLoS ONE 2018 ,13,
+e0201271.
+107. Wang, S.; Liu, W.; Lu, D.; Lu, Z.; Wang, X.; Xue, J.; He, X. Distribution of bacterial blight resistance genes in the main cultivars and
+application of Xa23 in rice breeding. Front. Plant Sci. 2020 ,11, 555228. [CrossRef]
+108. Hsu, Y.C.; Chiu, C.H.; Yap, R.; Tseng, Y.C.; Wu, Y.P . Pyramiding bacterial blight resistance genes in tainung82 for broad-spectrum
+resistance using marker-assisted selection. Int. J. Mol. Sci. 2020 ,21, 1281. [CrossRef]
+109. Mi, J.; Yang, D.; Chen, Y.; Jiang, J.; Mou, H.; Huang, J.; Ouyang, Y.; Mou, T. Accelerated molecular breeding of a novel P/TGMS
+line with broad-spectrum resistance to rice blast and bacterial blight in two-line hybrid rice. Rice 2018 ,11, 1–12. [CrossRef]
+110. Ramalingam, J.; Raveendra, C.; Savitha, P .; Vidya, V .; Chaithra, T.L.; Velprabakaran, S.; Saraswathi, R.; Ramanathan, A.;
+Arumugam Pillai, M.P .; Arumugachamy, S.; et al. Gene pyramiding for achieving enhanced resistance to bacterial blight, blast,
+and sheath blight diseases in rice. Front. Plant Sci. 2020 ,11, 591457. [CrossRef]
+111. Ashkani, S.; Raﬁi, M.Y.; Shabanimofrad, M.; Miah, G.; Sahebi, M.; Azizi, P .; Tanweer, F.A.; Akhtar, M.S.; Nasehi, A. Molecular
+breeding strategy and challenges towards improvement of blast disease resistance in rice crop. Front. Plant Sci. 2015 ,6, 886.
+[CrossRef]
+112. Ning, X.; Yunyu, W.; Aihong, L. Strategy for use of rice blast resistance genes in rice molecular breeding. Rice Sci. 2020 ,27,
+263–277. [CrossRef]
+113. Zaidi, S.S.; Mukhtar, M.S.; Mansoor, S. Genome editing: Targeting susceptibility genes for plant disease resistance. Trends
+Biotechnol. 2018 ,36, 898–906. [CrossRef]
+114. Fukuoka, S.; Saka, N.; Koga, H.; Ono, K.; Shimizu, T.; Ebana, K.; Hayashi, N.; Takahashi, A.; Hirochika, H.; Okuno, K.; et al. Loss
+of function of a proline-containing protein confers durable disease resistance in rice. Science 2009 ,325, 998–1001. [CrossRef]
+[PubMed]
+115. Iyer, A.S.; McCouch, S.R. The rice bacterial blight resistance gene xa5encodes a novel form of disease resistance. Mol. Plant-Microbe
+Interact. 2004 ,17, 1348–1354. [CrossRef] [PubMed]
+116. Jiang, G.H.; Xia, Z.H.; Zhou, Y.L.; Wan, J.; Li, D.Y.; Chen, R.S.; Zhai, W.X.; Zhu, L.H. Testifying the rice bacterial blight resistance
+gene xa5by genetic complementation and further analyzing xa5(Xa5) in comparison with its homolog TFIIA 1.Mol. Genet.
+Genom. 2006 ,275, 354–366. [CrossRef]
+117. Antony, G.; Zhou, J.H.; Huang, S.; Li, T.; Liu, B.; White, F.; Yang, B. Rice xa13 recessive resistance to bacterial blight is defeated by
+induction of the disease susceptibility gene Os-11N3 .Plant Cell 2010 ,22, 3864–3876. [CrossRef]
+118. Yang, B.; Sugio, A.; White, F.F. Os8N3 is a host disease-susceptibility gene for bacterial blight of rice. Proc. Natl. Acad. Sci. USA
+2006 ,103, 10503–10508. [CrossRef] [PubMed]
+119. Chu, Z.; Fu, B.; Yang, H.; Xu, C.; Li, Z.; Sanchez, A.; Park, Y.J.; Bennetzen, J.L.; Zhang, Q.; Wang, S. Targeting xa13, a recessive
+gene for bacterial blight resistance in rice. Theor. Appl. Genet. 2006 ,112, 455–461. [CrossRef]
+120. Liu, Q.S.; Yuan, M.; Zhou, Y.; Li, X.H.; Xiao, J.H.; Wang, S.P . A paralog of the MtN3/saliva family recessively confers race-speciﬁc
+resistance to Xanthomonas oryzae in rice. Plant Cell Environ. 2011 ,34, 1958–1969. [CrossRef]
+121. Zhou, J.; Peng, Z.; Long, J.; Sosso, D.; Liu, B.; Eom, J.S.; Huang, S.; Liu, S.; Vera Cruz, C.; Frommer, W.B.; et al. Gene targeting by
+the TAL effector PthXo2 reveals cryptic resistance gene for bacterial blight of rice. Plant J. 2015 ,82, 632–643. [CrossRef]
+122. Tian, J.; Xu, G.; Yuan, M. Precise editing enables crop broad-spectrum resistance. Mol. Plant 2019 ,12, 1542–1544. [CrossRef]
+[PubMed]
+123. Xu, Z.; Xu, X.; Gong, Q.; Li, Z.; Li, Y.; Wang, S.; Yang, Y.; Ma, W.; Liu, L.; Zhu, B.; et al. Engineering broad-spectrum bacterial
+blight resistance by simultaneously disrupting variable TALE-binding elements of multiple susceptibility genes in rice. Mol. Plant
+2019 ,12, 1434–1446. [CrossRef] [PubMed]
+124. Oliva, R.; Ji, C.; Atienza-Grande, G.; Huguet-Tapia, J.C.; Perez-Quintero, A.; Li, T.; Eom, J.S.; Li, C.; Nguyen, H.; Liu, B.; et al.
+Broad-spectrum resistance to bacterial blight in rice using genome editing. Nat. Biotechnol. 2019 ,37, 1344–1350. [CrossRef]
+125. Zafar, K.; Khan, M.Z.; Amin, I.; Mukhtar, Z.; Yasmin, S.; Arif, M.; Ejaz, K.; Mansoor, S. Precise CRISPR-Cas9 mediated genome
+editing in super basmati rice for resistance against bacterial blight by targeting the major susceptibility gene. Front. Plant Sci.
+2020 ,11, 575. [CrossRef] [PubMed]
+126. Zeng, X.; Luo, Y.; Vu, N.T.Q.; Shen, S.; Xia, K.; Zhang, M. CRISPR/Cas9-mediated mutation of OsSWEET14 in rice cv. Zhonghua11
+confers resistance to Xanthomonas oryzae pv. oryzae without yield penalty. BMC Plant Biol. 2020 ,20, 1–11. [CrossRef]Int. J. Mol. Sci. 2021 ,22, 11658 17 of 17
+127. Tao, H.; Shi, X.; He, F.; Wang, D.; Xiao, N.; Fang, H.; Wang, R.; Zhang, F.; Wang, M.; Li, A.; et al. Engineering broad-spectrum
+disease-resistant rice by editing multiple susceptibility genes. J. Integr. Plant Biol. 2021 ,63, 1639–1648. [CrossRef]
+128. Li, W.; Deng, Y.; Ning, Y.; He, Z.; Wang, G.L. Exploiting broad-spectrum disease resistance in crops: From molecular dissection to
+breeding. Annu. Rev. Plant Biol. 2020 ,71, 575–603. [CrossRef]
+129. Wei, Z.; Abdelrahman, M.; Gao, Y.; Ji, Z.; Mishra, R.; Sun, H.; Sui, Y.; Wu, C.; Wang, C.; Zhao, K. Engineering broad-spectrum
+resistance to bacterial blight by CRISPR-Cas9-mediated precise homology directed repair in rice. Mol. Plant 2021 ,14, 1215–1218.
+[CrossRef]
+130. Molla, K.A.; Karmakar, S.; Chanda, P .K.; Sarkar, S.N.; Datta, S.K.; Datta, K. Tissue-speciﬁc expression of Arabidopsis NPR1 gene in
+rice for sheath blight resistance without compromising phenotypic cost. Plant Sci. 2016 ,250, 105–114. [CrossRef]
+131. Xu, G.; Yuan, M.; Ai, C.; Liu, L.; Zhuang, E.; Karapetyan, S.; Wang, S.; Dong, X. uORF-mediated translation allows engineered
+plant disease resistance without ﬁtness costs. Nature 2017 ,545, 491–494. [CrossRef]
+132. Li, Z.; Huang, J.; Wang, Z.; Meng, F.; Zhang, S.; Wu, X.; Zhang, Z.; Gao, Z. Overexpression of Arabidopsis nucleotide-binding and
+leucine-rich repeat genes RPS2 and RPM1(D505V) confers broad-spectrum disease resistance in rice. Front. Plant Sci. 2019 ,10,
+417. [CrossRef] [PubMed]
+133. Krattinger, S.G.; Sucher, J.; Selter, L.L.; Chauhan, H.; Zhou, B.; Tang, M.; Upadhyaya, N.M.; Mieulet, D.; Guiderdoni, E.;
+Weidenbach, D.; et al. The wheat durable, multipathogen resistance gene Lr34 confers partial blast resistance in rice. Plant
+Biotechnol. J. 2016 ,14, 1261–1268. [CrossRef] [PubMed]
+134. Pokhrel, S.; Ponniah, S.K.; Jia, Y.; Yu, O.; Manoharan, M. Transgenic rice expressing isoﬂavone synthase gene from soybean shows
+resistance against blast fungus ( Magnaporthe oryzae ).Plant Dis. 2021 . [CrossRef] [PubMed]
